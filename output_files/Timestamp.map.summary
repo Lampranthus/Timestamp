@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sun Mar 31 02:08:27 2024
+Analysis & Synthesis Status : Successful - Sun Mar 31 10:06:24 2024
 Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 Revision Name : Timestamp
 Top-level Entity Name : Timestamp
 Family : Cyclone IV E
-Total logic elements : 1,307
-    Total combinational functions : 1,029
-    Dedicated logic registers : 620
-Total registers : 620
-Total pins : 11
+Total logic elements : 1,302
+    Total combinational functions : 1,024
+    Dedicated logic registers : 623
+Total registers : 623
+Total pins : 10
 Total virtual pins : 0
 Total memory bits : 1,835,008
 Embedded Multiplier 9-bit elements : 0

@@ -19,7 +19,7 @@ entity Timestamp is
 	One  	: in STD_LOGIC;
 	FCout1 	: out STD_LOGIC;
 	FCout2 	: out STD_LOGIC;
-	rx      : IN  STD_LOGIC;
+	--rx      : IN  STD_LOGIC;
 	tx      : OUT STD_LOGIC
 	
   );
@@ -111,7 +111,7 @@ end component;
 
 component uart IS
   GENERIC(
-    clk_freq  :  INTEGER    := 50_000_000;  --frequency of system clock in Hertz
+    clk_freq  :  INTEGER    := 400_000_000;  --frequency of system clock in Hertz
     baud_rate :  INTEGER    := 115_200;      --data link baud rate in bits/second
     os_rate   :  INTEGER    := 16;          --oversampling rate to find center of receive bits (in samples per baud period)
     d_width   :  INTEGER    := 16;           --data bus width
@@ -165,7 +165,7 @@ begin
 	sc3 : Shift_Left port map(CLK, RST, Zero, Zeros);
 	sc4 : Shift_Left port map(CLK, RST, One, Ones);
 	sc5 : ram_dual port map(CLK, CLK, RV, write_address, read_address, we, q);
-	sc6 : uart port map(CLK, RST, tx_ena, tx_data, rx, open, open, open, tx_busy, tx);
+	sc6 : uart port map(CLK, RST, tx_ena, tx_data, '0', open, open, open, tx_busy, tx);
 	sc7 : fsm_wr port map(RST, CLK, init, WR, tx_busy, we, write_address, read_address, tx_ena);
   
 end Behavioral;

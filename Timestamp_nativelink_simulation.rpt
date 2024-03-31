@@ -19,13 +19,13 @@ Sim dir               :  simulation\activehdl
 
 Info: Starting NativeLink simulation with Active-HDL software
 Sourced NativeLink script c:/intelfpga_lite/23.1std/quartus/common/tcl/internal/nativelink/active-hdl.tcl
-Warning: File Timestamp_sim_rtl_vhdl.do already exists - backing up current file as Timestamp_sim_rtl_vhdl.do.bak3
+Warning: File Timestamp_sim_rtl_vhdl.do already exists - backing up current file as Timestamp_sim_rtl_vhdl.do.bak5
 Probing asim_log
 Active-HDL Info: createdesign Timestamp C:/Quartus_Proyects/Timestamp/simulation/activehdl
 Active-HDL Info: # Design Timestamp created
 Active-HDL Info: opendesign -a Timestamp.adf
 Active-HDL Info: # Design: Creating new workspace file: "C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp\Timestamp.aws"
-Active-HDL Info: # Design: 2:16 AM, Sunday, March 31, 2024
+Active-HDL Info: # Design: 10:22 AM, Sunday, March 31, 2024
 Active-HDL Info: # Design: Opening design "C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp\Timestamp.adf"
 Active-HDL Info: waveformmode ASDB
 Active-HDL Info: alib  vhdl_libs/altera_vhdl
@@ -35,17 +35,17 @@ Active-HDL Info: # Library Manager: Library "altera" attached.
 Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
 Active-HDL Info: # Compile Package "altera_syn_attributes"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
 Active-HDL Info: # Compile Package "altera_standard_functions"
 Active-HDL Info: # Compile Package Body "altera_standard_functions"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
 Active-HDL Info: # Compile Package "alt_dspbuilder_package"
 Active-HDL Info: # Compile Package Body "alt_dspbuilder_package"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
 Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_europa_support_lib.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_europa_support_lib.vhd
 Active-HDL Info: # Compile Package "altera_europa_support_lib"
@@ -55,7 +55,7 @@ Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quar
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives_components.vhd
 Active-HDL Info: # Compile Package "dffeas_pack"
 Active-HDL Info: # Compile Package "altera_primitives_components"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
 Active-HDL Info: # Compile Entity "GLOBAL"
@@ -134,7 +134,7 @@ Active-HDL Info: # Compile Entity "alt_bidir_diff"
 Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_diff"
 Active-HDL Info: # Compile Entity "alt_bidir_buf"
 Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_buf"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
 Active-HDL Info: alib  vhdl_libs/lpm_vhdl
 Active-HDL Info: # Library Manager: Library "lpm_vhdl" attached.
 Active-HDL Info: amap lpm vhdl_libs/lpm_vhdl
@@ -142,7 +142,7 @@ Active-HDL Info: # Library Manager: Library "lpm" attached.
 Active-HDL Info: acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
 Active-HDL Info: # Compile Package "LPM_COMPONENTS"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
 Active-HDL Info: # Compile Package "LPM_COMMON_CONVERSION"
@@ -219,7 +219,7 @@ Active-HDL Info: # Compile Entity "LPM_OUTpad"
 Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_OUTpad"
 Active-HDL Info: # Compile Entity "LPM_BIpad"
 Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_BIpad"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
 Active-HDL Info: alib  vhdl_libs/sgate_vhdl
 Active-HDL Info: # Library Manager: Library "sgate_vhdl" attached.
 Active-HDL Info: amap sgate vhdl_libs/sgate_vhdl
@@ -228,7 +228,7 @@ Active-HDL Info: acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quart
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd
 Active-HDL Info: # Compile Package "sgate_pack"
 Active-HDL Info: # Compile Package Body "sgate_pack"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
 Active-HDL Info: # Compile Entity "oper_add"
@@ -271,7 +271,7 @@ Active-HDL Info: # Compile Entity "oper_bus_mux"
 Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_bus_mux"
 Active-HDL Info: # Compile Entity "oper_latch"
 Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_latch"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
 Active-HDL Info: alib  vhdl_libs/altera_mf_vhdl
 Active-HDL Info: # Library Manager: Library "altera_mf_vhdl" attached.
 Active-HDL Info: amap altera_mf vhdl_libs/altera_mf_vhdl
@@ -279,7 +279,7 @@ Active-HDL Info: # Library Manager: Library "altera_mf" attached.
 Active-HDL Info: acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
 Active-HDL Info: # Compile Package "altera_mf_components"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
 Active-HDL Info: acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
 Active-HDL Info: # Compile Entity "LCELL"
@@ -456,7 +456,7 @@ Active-HDL Info: # Compile Entity "sld_virtual_jtag_basic"
 Active-HDL Info: # Compile Architecture "sim_sld_virtual_jtag_basic" of Entity "sld_virtual_jtag_basic"
 Active-HDL Info: # Compile Entity "altsource_probe"
 Active-HDL Info: # Compile Architecture "sim_altsource_probe" of Entity "altsource_probe"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  14.0 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]
 Active-HDL Info: alib  vhdl_libs/altera_lnsim_vhdl
 Active-HDL Info: # Library Manager: Library "altera_lnsim_vhdl" attached.
 Active-HDL Info: amap altera_lnsim vhdl_libs/altera_lnsim_vhdl
@@ -467,7 +467,7 @@ Active-HDL Info: # done
 Active-HDL Info: acom -strict93 -dbg -work altera_lnsim c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
 Active-HDL Info: # Compile Package "altera_lnsim_components"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
 Active-HDL Info: alib  vhdl_libs/cycloneive_vhdl
 Active-HDL Info: # Library Manager: Library "cycloneive_vhdl" attached.
 Active-HDL Info: amap cycloneive vhdl_libs/cycloneive_vhdl
@@ -553,11 +553,11 @@ Active-HDL Info: # Compile Entity "cycloneive_crcblock"
 Active-HDL Info: # Compile Architecture "architecture_crcblock" of Entity "cycloneive_crcblock"
 Active-HDL Info: # Compile Entity "cycloneive_oscillator"
 Active-HDL Info: # Compile Architecture "architecture_oscillator" of Entity "cycloneive_oscillator"
-Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  2.0 [s]
+Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
 Active-HDL Info: acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 Active-HDL Info: # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 Active-HDL Info: # Compile Package "cycloneive_components"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
 Active-HDL Info: addfile -c -auto C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v
 Active-HDL Info: # Adding file C:\Quartus_Proyects\Timestamp\db\pll_400mhz_altpll.v ... Done
 Active-HDL Info: addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd
@@ -708,5 +708,5 @@ Active-HDL Info: # File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Time
 Active-HDL Info: # Compile Architecture "Behavioral" of Entity "Timestamp"
 Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
 Active-HDL Info: # ELBREAD: Elaboration process.
-Active-HDL Info: # ELBREAD: Elaboration time 0.1 [s].
+Active-HDL Info: # ELBREAD: Elaboration time 0.2 [s].
 Info: NativeLink simulation flow was successful

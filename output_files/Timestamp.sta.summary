@@ -3,32 +3,28 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -17.090
-TNS   : -4510.340
-
-Type  : Slow 1200mV 85C Model Setup 'Global_P:sc1|FFD:sc5|Q'
-Slack : -12.113
-TNS   : -1028.719
+Slack : -18.034
+TNS   : -4451.080
 
 Type  : Slow 1200mV 85C Model Setup 'TDC:sc0|FFD:sc4|Q'
-Slack : -12.061
-TNS   : -1039.087
+Slack : -12.268
+TNS   : -1072.627
 
-Type  : Slow 1200mV 85C Model Hold 'Global_P:sc1|FFD:sc5|Q'
-Slack : -0.388
-TNS   : -0.614
+Type  : Slow 1200mV 85C Model Setup 'Global_P:sc1|FFD:sc5|Q'
+Slack : -12.119
+TNS   : -1023.563
 
 Type  : Slow 1200mV 85C Model Hold 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.178
+Slack : 0.143
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'TDC:sc0|FFD:sc4|Q'
-Slack : 0.602
+Slack : 0.334
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
-Slack : -4.231
-TNS   : -4.231
+Type  : Slow 1200mV 85C Model Hold 'Global_P:sc1|FFD:sc5|Q'
+Slack : 1.530
+TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'TDC:sc0|FFD:sc6|Q'
 Slack : -4.195
@@ -38,56 +34,60 @@ Type  : Slow 1200mV 85C Model Recovery 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
 Slack : -4.043
 TNS   : -4.043
 
+Type  : Slow 1200mV 85C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
+Slack : -3.870
+TNS   : -3.870
+
 Type  : Slow 1200mV 85C Model Recovery 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : -3.854
-TNS   : -3.854
+Slack : -3.775
+TNS   : -3.775
 
 Type  : Slow 1200mV 85C Model Recovery 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : -2.945
-TNS   : -2.945
+Slack : -2.648
+TNS   : -2.648
 
 Type  : Slow 1200mV 85C Model Recovery 'Trigger'
-Slack : -2.046
-TNS   : -2.046
+Slack : -1.833
+TNS   : -1.833
 
 Type  : Slow 1200mV 85C Model Recovery 'Hit'
-Slack : -1.498
-TNS   : -1.498
+Slack : -1.725
+TNS   : -1.725
 
 Type  : Slow 1200mV 85C Model Recovery 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -0.978
-TNS   : -7.054
+Slack : -1.201
+TNS   : -8.407
 
 Type  : Slow 1200mV 85C Model Removal 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.369
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'Hit'
-Slack : 1.067
+Slack : 0.484
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'Trigger'
-Slack : 1.234
+Slack : 0.797
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Hit'
+Slack : 1.221
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : 2.109
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : 3.066
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
-Slack : 3.274
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'TDC:sc0|FFD:sc6|Q'
-Slack : 3.418
+Slack : 1.798
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'Global_P:sc1|FFD:sc1|Q'
-Slack : 3.534
+Slack : 2.946
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
+Slack : 2.984
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
+Slack : 3.270
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'TDC:sc0|FFD:sc6|Q'
+Slack : 3.415
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Hit'
@@ -135,91 +135,91 @@ Slack : 9.894
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -15.502
-TNS   : -3945.589
-
-Type  : Slow 1200mV 0C Model Setup 'Global_P:sc1|FFD:sc5|Q'
-Slack : -10.735
-TNS   : -919.698
+Slack : -16.448
+TNS   : -3911.623
 
 Type  : Slow 1200mV 0C Model Setup 'TDC:sc0|FFD:sc4|Q'
-Slack : -10.677
-TNS   : -924.822
+Slack : -10.857
+TNS   : -954.594
 
-Type  : Slow 1200mV 0C Model Hold 'Global_P:sc1|FFD:sc5|Q'
-Slack : -0.251
-TNS   : -0.307
+Type  : Slow 1200mV 0C Model Setup 'Global_P:sc1|FFD:sc5|Q'
+Slack : -10.727
+TNS   : -911.562
 
 Type  : Slow 1200mV 0C Model Hold 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.170
+Slack : 0.133
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'TDC:sc0|FFD:sc4|Q'
-Slack : 0.587
+Slack : 0.394
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
-Slack : -3.871
-TNS   : -3.871
+Type  : Slow 1200mV 0C Model Hold 'Global_P:sc1|FFD:sc5|Q'
+Slack : 1.512
+TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'TDC:sc0|FFD:sc6|Q'
-Slack : -3.803
-TNS   : -3.803
+Slack : -3.794
+TNS   : -3.794
 
 Type  : Slow 1200mV 0C Model Recovery 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
-Slack : -3.676
-TNS   : -3.676
+Slack : -3.667
+TNS   : -3.667
+
+Type  : Slow 1200mV 0C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
+Slack : -3.475
+TNS   : -3.475
 
 Type  : Slow 1200mV 0C Model Recovery 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : -3.489
-TNS   : -3.489
+Slack : -3.410
+TNS   : -3.410
 
 Type  : Slow 1200mV 0C Model Recovery 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : -2.626
-TNS   : -2.626
+Slack : -2.351
+TNS   : -2.351
 
 Type  : Slow 1200mV 0C Model Recovery 'Trigger'
-Slack : -1.834
-TNS   : -1.834
+Slack : -1.535
+TNS   : -1.535
 
 Type  : Slow 1200mV 0C Model Recovery 'Hit'
-Slack : -1.151
-TNS   : -1.151
+Slack : -1.349
+TNS   : -1.349
 
 Type  : Slow 1200mV 0C Model Recovery 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -0.790
-TNS   : -5.530
+Slack : -0.957
+TNS   : -6.699
 
 Type  : Slow 1200mV 0C Model Removal 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.278
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'Hit'
-Slack : 0.928
+Slack : 0.390
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'Trigger'
-Slack : 1.068
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Hit'
+Slack : 1.064
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : 1.912
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : 2.818
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
-Slack : 3.025
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'TDC:sc0|FFD:sc6|Q'
-Slack : 3.144
+Slack : 1.626
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'Global_P:sc1|FFD:sc1|Q'
-Slack : 3.243
+Slack : 2.692
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
+Slack : 2.741
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
+Slack : 3.013
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'TDC:sc0|FFD:sc6|Q'
+Slack : 3.132
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Hit'
@@ -267,91 +267,91 @@ Slack : 9.890
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -8.268
-TNS   : -1589.482
-
-Type  : Fast 1200mV 0C Model Setup 'Global_P:sc1|FFD:sc5|Q'
-Slack : -6.055
-TNS   : -506.568
+Slack : -8.898
+TNS   : -1598.086
 
 Type  : Fast 1200mV 0C Model Setup 'TDC:sc0|FFD:sc4|Q'
-Slack : -6.016
-TNS   : -509.295
+Slack : -6.163
+TNS   : -532.175
 
-Type  : Fast 1200mV 0C Model Hold 'Global_P:sc1|FFD:sc5|Q'
-Slack : -0.412
-TNS   : -2.320
-
-Type  : Fast 1200mV 0C Model Hold 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.007
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Setup 'Global_P:sc1|FFD:sc5|Q'
+Slack : -6.079
+TNS   : -507.431
 
 Type  : Fast 1200mV 0C Model Hold 'TDC:sc0|FFD:sc4|Q'
-Slack : 0.090
+Slack : -0.055
+TNS   : -0.055
+
+Type  : Fast 1200mV 0C Model Hold 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.056
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
-Slack : -2.158
-TNS   : -2.158
+Type  : Fast 1200mV 0C Model Hold 'Global_P:sc1|FFD:sc5|Q'
+Slack : 0.641
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'TDC:sc0|FFD:sc6|Q'
-Slack : -2.115
-TNS   : -2.115
+Slack : -2.113
+TNS   : -2.113
 
 Type  : Fast 1200mV 0C Model Recovery 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
-Slack : -2.030
-TNS   : -2.030
+Slack : -2.028
+TNS   : -2.028
+
+Type  : Fast 1200mV 0C Model Recovery 'Global_P:sc1|FFD:sc1|Q'
+Slack : -1.974
+TNS   : -1.974
 
 Type  : Fast 1200mV 0C Model Recovery 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : -1.948
-TNS   : -1.948
+Slack : -1.900
+TNS   : -1.900
 
 Type  : Fast 1200mV 0C Model Recovery 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : -1.519
-TNS   : -1.519
+Slack : -1.343
+TNS   : -1.343
 
 Type  : Fast 1200mV 0C Model Recovery 'Trigger'
-Slack : -0.933
-TNS   : -0.933
+Slack : -0.830
+TNS   : -0.830
 
 Type  : Fast 1200mV 0C Model Recovery 'Hit'
-Slack : -0.645
-TNS   : -0.645
+Slack : -0.739
+TNS   : -0.739
 
 Type  : Fast 1200mV 0C Model Recovery 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -0.345
-TNS   : -2.415
+Slack : -0.491
+TNS   : -3.437
 
 Type  : Fast 1200mV 0C Model Removal 'sc2|sc0|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.104
+Slack : 0.209
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'Hit'
-Slack : 0.377
+Slack : 0.413
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'Trigger'
-Slack : 0.625
+Slack : 0.428
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0|qp[6]'
-Slack : 1.254
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
-Slack : 1.705
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
-Slack : 1.795
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'TDC:sc0|FFD:sc6|Q'
-Slack : 1.876
+Slack : 1.069
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'Global_P:sc1|FFD:sc1|Q'
-Slack : 1.927
+Slack : 1.653
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Global_P:sc1|Synchronizer:sc2|FFD_N:sc2|Q'
+Slack : 1.656
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'TDC:sc0|Synchronizer:sc0|FFD_N:sc2|Q'
+Slack : 1.788
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'TDC:sc0|FFD:sc6|Q'
+Slack : 1.870
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Hit'

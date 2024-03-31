@@ -71,20 +71,6 @@ set_location_assignment PIN_AB28 -to init
 set_location_assignment PIN_AC28 -to Zero
 set_location_assignment PIN_AC27 -to One
 set_location_assignment PIN_AH14 -to CLK0
-set_location_assignment PIN_G19 -to RTC[0]
-set_location_assignment PIN_F19 -to RTC[1]
-set_location_assignment PIN_E19 -to RTC[2]
-set_location_assignment PIN_F21 -to RTC[3]
-set_location_assignment PIN_F18 -to RTC[4]
-set_location_assignment PIN_E18 -to RTC[5]
-set_location_assignment PIN_E21 -to RR[0]
-set_location_assignment PIN_E22 -to RR[1]
-set_location_assignment PIN_E25 -to RR[2]
-set_location_assignment PIN_E24 -to RR[3]
-set_location_assignment PIN_H21 -to RR[4]
-set_location_assignment PIN_G20 -to RR[5]
-set_location_assignment PIN_G22 -to RR[6]
-set_location_assignment PIN_G21 -to RR[7]
 set_location_assignment PIN_F17 -to FCout2
 set_location_assignment PIN_H15 -to FCout1
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd
@@ -111,4 +97,5 @@ set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Times
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd
+set_location_assignment PIN_AE15 -to tx
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

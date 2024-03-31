@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Timestamp
-Sun Mar 31 02:08:27 2024
+Sun Mar 31 10:06:24 2024
 Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
@@ -84,16 +84,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Mar 31 02:08:27 2024          ;
+; Analysis & Synthesis Status        ; Successful - Sun Mar 31 10:06:24 2024          ;
 ; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
 ; Revision Name                      ; Timestamp                                      ;
 ; Top-level Entity Name              ; Timestamp                                      ;
 ; Family                             ; Cyclone IV E                                   ;
-; Total logic elements               ; 1,307                                          ;
-;     Total combinational functions  ; 1,029                                          ;
-;     Dedicated logic registers      ; 620                                            ;
-; Total registers                    ; 620                                            ;
-; Total pins                         ; 11                                             ;
+; Total logic elements               ; 1,302                                          ;
+;     Total combinational functions  ; 1,024                                          ;
+;     Dedicated logic registers      ; 623                                            ;
+; Total registers                    ; 623                                            ;
+; Total pins                         ; 10                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 1,835,008                                      ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
@@ -257,23 +257,23 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 1,307     ;
+; Estimated Total logic elements              ; 1,302     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1029      ;
+; Total combinational functions               ; 1024      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 524       ;
-;     -- 3 input functions                    ; 387       ;
-;     -- <=2 input functions                  ; 118       ;
+;     -- 4 input functions                    ; 526       ;
+;     -- 3 input functions                    ; 381       ;
+;     -- <=2 input functions                  ; 117       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 715       ;
-;     -- arithmetic mode                      ; 314       ;
+;     -- normal mode                          ; 707       ;
+;     -- arithmetic mode                      ; 317       ;
 ;                                             ;           ;
-; Total registers                             ; 620       ;
-;     -- Dedicated logic registers            ; 620       ;
+; Total registers                             ; 623       ;
+;     -- Dedicated logic registers            ; 623       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 11        ;
+; I/O pins                                    ; 10        ;
 ; Total memory bits                           ; 1835008   ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
@@ -282,9 +282,9 @@ https://fpgasoftware.intel.com/eula.
 ;     -- PLLs                                 ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; RST~input ;
-; Maximum fan-out                             ; 601       ;
-; Total fan-out                               ; 11925     ;
-; Average fan-out                             ; 6.29      ;
+; Maximum fan-out                             ; 604       ;
+; Total fan-out                               ; 11924     ;
+; Average fan-out                             ; 6.30      ;
 +---------------------------------------------+-----------+
 
 
@@ -293,8 +293,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node                     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                  ; Entity Name       ; Library Name ;
 +------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
-; |Timestamp                                     ; 1029 (0)            ; 620 (0)                   ; 1835008     ; 0            ; 0       ; 0         ; 11   ; 0            ; |Timestamp                                                                                           ; Timestamp         ; work         ;
-;    |Global_P:sc1|                              ; 362 (2)             ; 145 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1                                                                              ; Global_P          ; work         ;
+; |Timestamp                                     ; 1024 (0)            ; 623 (0)                   ; 1835008     ; 0            ; 0       ; 0         ; 10   ; 0            ; |Timestamp                                                                                           ; Timestamp         ; work         ;
+;    |Global_P:sc1|                              ; 361 (2)             ; 145 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1                                                                              ; Global_P          ; work         ;
 ;       |AFFD:sc7|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc7                                                                     ; AFFD              ; work         ;
 ;       |AFFD:sc8|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc8                                                                     ; AFFD              ; work         ;
 ;       |Coarse_Counter:sc0|                     ; 7 (0)               ; 7 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Coarse_Counter:sc0                                                           ; Coarse_Counter    ; work         ;
@@ -302,9 +302,9 @@ https://fpgasoftware.intel.com/eula.
 ;       |FFD:sc1|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc1                                                                      ; FFD               ; work         ;
 ;       |FFD:sc5|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc5                                                                      ; FFD               ; work         ;
 ;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc6                                                                      ; FFD               ; work         ;
-;       |FReg:sc4|                               ; 217 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4                                                                     ; FReg              ; work         ;
+;       |FReg:sc4|                               ; 216 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4                                                                     ; FReg              ; work         ;
 ;          |Reg_N:sc0|                           ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Reg_N:sc0                                                           ; Reg_N             ; work         ;
-;          |Zero_Count:sc1|                      ; 217 (217)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Zero_Count:sc1                                                      ; Zero_Count        ; work         ;
+;          |Zero_Count:sc1|                      ; 216 (216)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Zero_Count:sc1                                                      ; Zero_Count        ; work         ;
 ;       |Fine_Counter:sc3|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3                                                             ; Fine_Counter      ; work         ;
 ;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3|Carry_Chain_N:sc0                                           ; Carry_Chain_N     ; work         ;
 ;       |Synchronizer:sc2|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2                                                             ; Synchronizer      ; work         ;
@@ -318,16 +318,16 @@ https://fpgasoftware.intel.com/eula.
 ;       |mux_2a1:sc1|                            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|mux_2a1:sc1                                                                       ; mux_2a1           ; work         ;
 ;    |Shift_Left:sc3|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc3                                                                            ; Shift_Left        ; work         ;
 ;    |Shift_Left:sc4|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc4                                                                            ; Shift_Left        ; work         ;
-;    |TDC:sc0|                                   ; 361 (1)             ; 141 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0                                                                                   ; TDC               ; work         ;
+;    |TDC:sc0|                                   ; 355 (1)             ; 141 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0                                                                                   ; TDC               ; work         ;
 ;       |AFFD:sc5|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|AFFD:sc5                                                                          ; AFFD              ; work         ;
 ;       |FFD:sc4|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc4                                                                           ; FFD               ; work         ;
 ;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc6                                                                           ; FFD               ; work         ;
 ;       |Fine_Counter:sc1|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1                                                                  ; Fine_Counter      ; work         ;
 ;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0                                                ; Carry_Chain_N     ; work         ;
-;       |Regs:sc2|                               ; 219 (0)             ; 134 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2                                                                          ; Regs              ; work         ;
-;          |FReg:sc1|                            ; 219 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1                                                                 ; FReg              ; work         ;
+;       |Regs:sc2|                               ; 213 (0)             ; 134 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2                                                                          ; Regs              ; work         ;
+;          |FReg:sc1|                            ; 213 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1                                                                 ; FReg              ; work         ;
 ;             |Reg_N:sc0|                        ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0                                                       ; Reg_N             ; work         ;
-;             |Zero_Count:sc1|                   ; 219 (219)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1                                                  ; Zero_Count        ; work         ;
+;             |Zero_Count:sc1|                   ; 213 (213)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1                                                  ; Zero_Count        ; work         ;
 ;          |Reg_N:sc0|                           ; 0 (0)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|Reg_N:sc0                                                                ; Reg_N             ; work         ;
 ;       |Synchronizer:sc0|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0                                                                  ; Synchronizer      ; work         ;
 ;          |FFD:sc0|                             ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD:sc0                                                          ; FFD               ; work         ;
@@ -335,12 +335,12 @@ https://fpgasoftware.intel.com/eula.
 ;          |FFD_N:sc2|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD_N:sc2                                                        ; FFD_N             ; work         ;
 ;       |restador_n:sc3|                         ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|restador_n:sc3                                                                    ; restador_n        ; work         ;
 ;    |fsm_wr:sc7|                                ; 60 (60)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|fsm_wr:sc7                                                                                ; fsm_wr            ; work         ;
-;    |ram_dual:sc5|                              ; 194 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5                                                                              ; ram_dual          ; work         ;
-;       |altsyncram:ram_block_rtl_0|             ; 194 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0                                                   ; altsyncram        ; work         ;
-;          |altsyncram_6ch1:auto_generated|      ; 194 (0)             ; 4 (4)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated                    ; altsyncram_6ch1   ; work         ;
+;    |ram_dual:sc5|                              ; 192 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5                                                                              ; ram_dual          ; work         ;
+;       |altsyncram:ram_block_rtl_0|             ; 192 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0                                                   ; altsyncram        ; work         ;
+;          |altsyncram_6ch1:auto_generated|      ; 192 (0)             ; 4 (4)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated                    ; altsyncram_6ch1   ; work         ;
 ;             |decode_bua:decode2|               ; 18 (18)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|decode_bua:decode2 ; decode_bua        ; work         ;
-;             |mux_8qb:mux3|                     ; 176 (176)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|mux_8qb:mux3       ; mux_8qb           ; work         ;
-;    |uart:sc6|                                  ; 51 (51)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|uart:sc6                                                                                  ; uart              ; work         ;
+;             |mux_8qb:mux3|                     ; 174 (174)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|mux_8qb:mux3       ; mux_8qb           ; work         ;
+;    |uart:sc6|                                  ; 55 (55)             ; 40 (40)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|uart:sc6                                                                                  ; uart              ; work         ;
 +------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -369,10 +369,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 620   ;
-; Number of registers using Synchronous Clear  ; 43    ;
+; Total registers                              ; 623   ;
+; Number of registers using Synchronous Clear  ; 46    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 597   ;
+; Number of registers using Asynchronous Clear ; 600   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 58    ;
 ; Number of registers using Preset             ; 0     ;
@@ -426,11 +426,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Timestamp|uart:sc6|tx_count[0]   ;
-; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q2p_reg[8]  ;
-; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q1p_reg[11] ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Timestamp|uart:sc6|tx_count[4]   ;
+; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q2p_reg[3]  ;
+; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q1p_reg[10] ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Timestamp|uart:sc6|tx_buffer[1]  ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |Timestamp|uart:sc6|tx_buffer[2]  ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |Timestamp|uart:sc6|tx_buffer[3]  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
 
 
@@ -1033,16 +1033,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: uart:sc6 ;
-+----------------+----------+---------------------------+
-; Parameter Name ; Value    ; Type                      ;
-+----------------+----------+---------------------------+
-; clk_freq       ; 50000000 ; Signed Integer            ;
-; baud_rate      ; 115200   ; Signed Integer            ;
-; os_rate        ; 16       ; Signed Integer            ;
-; d_width        ; 16       ; Signed Integer            ;
-; parity         ; 1        ; Signed Integer            ;
-; parity_eo      ; '0'      ; Enumerated                ;
-+----------------+----------+---------------------------+
++----------------+-----------+--------------------------+
+; Parameter Name ; Value     ; Type                     ;
++----------------+-----------+--------------------------+
+; clk_freq       ; 400000000 ; Signed Integer           ;
+; baud_rate      ; 115200    ; Signed Integer           ;
+; os_rate        ; 16        ; Signed Integer           ;
+; d_width        ; 16        ; Signed Integer           ;
+; parity         ; 1         ; Signed Integer           ;
+; parity_eo      ; '0'       ; Enumerated               ;
++----------------+-----------+--------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1149,6 +1149,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                             ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
+; rx       ; Input  ; Info     ; Stuck at GND                                                                        ;
 ; rx_busy  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; rx_error ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; rx_data  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
@@ -1243,29 +1244,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 11                          ;
-; cycloneiii_ff         ; 620                         ;
+; boundary_port         ; 10                          ;
+; cycloneiii_ff         ; 623                         ;
 ;     CLR               ; 549                         ;
-;     CLR SCLR          ; 9                           ;
+;     CLR SCLR          ; 12                          ;
 ;     ENA               ; 19                          ;
 ;     ENA CLR           ; 5                           ;
 ;     ENA CLR SCLR      ; 34                          ;
 ;     plain             ; 4                           ;
-; cycloneiii_lcell_comb ; 1030                        ;
-;     arith             ; 314                         ;
-;         2 data inputs ; 49                          ;
+; cycloneiii_lcell_comb ; 1025                        ;
+;     arith             ; 317                         ;
+;         2 data inputs ; 52                          ;
 ;         3 data inputs ; 265                         ;
-;     normal            ; 716                         ;
+;     normal            ; 708                         ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 7                           ;
-;         2 data inputs ; 61                          ;
-;         3 data inputs ; 122                         ;
-;         4 data inputs ; 524                         ;
+;         2 data inputs ; 57                          ;
+;         3 data inputs ; 116                         ;
+;         4 data inputs ; 526                         ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 224                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 24.70                       ;
-; Average LUT depth     ; 10.38                       ;
+; Average LUT depth     ; 10.36                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1274,7 +1275,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:12     ;
+; Top            ; 00:00:37     ;
 +----------------+--------------+
 
 
@@ -1284,7 +1285,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
-    Info: Processing started: Sun Mar 31 02:06:02 2024
+    Info: Processing started: Sun Mar 31 10:04:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Timestamp -c Timestamp
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -1509,18 +1510,16 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
     Critical Warning (18010): Register Global_P:sc1|AFFD:sc7|qp[0] will power up to High File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd Line: 58
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "rx" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 22
-Info (21057): Implemented 1544 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 8 input pins
+Info (21057): Implemented 1538 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
     Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 1308 logic cells
+    Info (21061): Implemented 1303 logic cells
     Info (21064): Implemented 224 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4864 megabytes
-    Info: Processing ended: Sun Mar 31 02:08:27 2024
-    Info: Elapsed time: 00:02:25
-    Info: Total CPU time (on all processors): 00:03:38
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4841 megabytes
+    Info: Processing ended: Sun Mar 31 10:06:24 2024
+    Info: Elapsed time: 00:01:26
+    Info: Total CPU time (on all processors): 00:02:32
 
 
