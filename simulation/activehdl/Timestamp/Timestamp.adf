@@ -1,0 +1,87 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Timestamp
+[Library]
+Timestamp=.\Timestamp\Timestamp.lib
+altera_vhdl=.\src\vhdl_libs\altera_vhdl\altera_vhdl.lib
+altera=.\src\vhdl_libs\altera_vhdl\altera_vhdl.lib
+lpm_vhdl=.\src\vhdl_libs\lpm_vhdl\lpm_vhdl.lib
+lpm=.\src\vhdl_libs\lpm_vhdl\lpm_vhdl.lib
+sgate_vhdl=.\src\vhdl_libs\sgate_vhdl\sgate_vhdl.lib
+sgate=.\src\vhdl_libs\sgate_vhdl\sgate_vhdl.lib
+altera_mf_vhdl=.\src\vhdl_libs\altera_mf_vhdl\altera_mf_vhdl.lib
+altera_mf=.\src\vhdl_libs\altera_mf_vhdl\altera_mf_vhdl.lib
+altera_lnsim_vhdl=.\src\vhdl_libs\altera_lnsim_vhdl\altera_lnsim_vhdl.lib
+altera_lnsim=.\src\vhdl_libs\altera_lnsim_vhdl\altera_lnsim_vhdl.lib
+cycloneive_vhdl=.\src\vhdl_libs\cycloneive_vhdl\cycloneive_vhdl.lib
+cycloneive=.\src\vhdl_libs\cycloneive_vhdl\cycloneive_vhdl.lib
+[$LibMap$]
+Timestamp=.
+altera_vhdl=.
+altera=.
+lpm_vhdl=.
+lpm=.
+sgate_vhdl=.
+sgate=.
+altera_mf_vhdl=.
+altera_mf=.
+altera_lnsim_vhdl=.
+altera_lnsim=.
+cycloneive_vhdl=.
+cycloneive=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[Files]
+/restador_n.vhd=-1
+/Zero_Count.vhd=-1
+/Shift_Left.vhd=-1
+/PLL_400MHZ.vhd=-1
+/Reg_N.vhd=-1
+/mux_2a1.vhd=-1
+/FFD_N.vhd=-1
+/Counter_N.vhd=-1
+/FFD.vhd=-1
+/Carry_Chain_N.vhd=-1
+/AFFD.vhd=-1
+/Coarse_Counter.vhd=-1
+/Fine_Counter.vhd=-1
+/FReg.vhd=-1
+/PLL.vhd=-1
+/Regs.vhd=-1
+/Synchronizer.vhd=-1
+/Global_P.vhd=-1
+/TDC.vhd=-1
+/pll_400mhz_altpll.v=-1
+/Timestamp.vhd=-1
+[Files.Data]
+.\src\restador_n.vhd=VHDL Source Code
+.\src\Zero_Count.vhd=VHDL Source Code
+.\src\Shift_Left.vhd=VHDL Source Code
+.\src\PLL_400MHZ.vhd=VHDL Source Code
+.\src\Reg_N.vhd=VHDL Source Code
+.\src\mux_2a1.vhd=VHDL Source Code
+.\src\FFD_N.vhd=VHDL Source Code
+.\src\Counter_N.vhd=VHDL Source Code
+.\src\FFD.vhd=VHDL Source Code
+.\src\Carry_Chain_N.vhd=VHDL Source Code
+.\src\AFFD.vhd=VHDL Source Code
+.\src\Coarse_Counter.vhd=VHDL Source Code
+.\src\Fine_Counter.vhd=VHDL Source Code
+.\src\FReg.vhd=VHDL Source Code
+.\src\PLL.vhd=VHDL Source Code
+.\src\Regs.vhd=VHDL Source Code
+.\src\Synchronizer.vhd=VHDL Source Code
+.\src\Global_P.vhd=VHDL Source Code
+.\src\TDC.vhd=VHDL Source Code
+.\src\pll_400mhz_altpll.v=Verilog Source Code
+.\src\Timestamp.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=timestamp|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

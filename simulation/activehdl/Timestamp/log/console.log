@@ -1,0 +1,674 @@
+waveformmode ASDB
+alib  vhdl_libs/altera_vhdl
+# Library Manager: Library "altera_vhdl" attached.
+amap altera vhdl_libs/altera_vhdl
+# Library Manager: Library "altera" attached.
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
+# Compile Package "altera_syn_attributes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
+# Compile Package "altera_standard_functions"
+# Compile Package Body "altera_standard_functions"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
+# Compile Package "alt_dspbuilder_package"
+# Compile Package Body "alt_dspbuilder_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_europa_support_lib.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_europa_support_lib.vhd
+# Compile Package "altera_europa_support_lib"
+# Compile Package Body "altera_europa_support_lib"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives_components.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives_components.vhd
+# Compile Package "dffeas_pack"
+# Compile Package "altera_primitives_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
+# Compile Entity "GLOBAL"
+# Compile Architecture "BEHAVIOR" of Entity "GLOBAL"
+# Compile Entity "CARRY"
+# Compile Architecture "BEHAVIOR" of Entity "CARRY"
+# Compile Entity "CASCADE"
+# Compile Architecture "BEHAVIOR" of Entity "CASCADE"
+# Compile Entity "CARRY_SUM"
+# Compile Architecture "BEHAVIOR" of Entity "CARRY_SUM"
+# Compile Entity "EXP"
+# Compile Architecture "BEHAVIOR" of Entity "EXP"
+# Compile Entity "SOFT"
+# Compile Architecture "BEHAVIOR" of Entity "SOFT"
+# Compile Entity "OPNDRN"
+# Compile Architecture "BEHAVIOR" of Entity "OPNDRN"
+# Compile Entity "ROW_GLOBAL"
+# Compile Architecture "BEHAVIOR" of Entity "ROW_GLOBAL"
+# Compile Entity "TRI"
+# Compile Architecture "BEHAVIOR" of Entity "TRI"
+# Compile Entity "LUT_INPUT"
+# Compile Architecture "BEHAVIOR" of Entity "LUT_INPUT"
+# Compile Entity "LUT_OUTPUT"
+# Compile Architecture "BEHAVIOR" of Entity "LUT_OUTPUT"
+# Compile Entity "latch"
+# Compile Architecture "BEHAVIOR" of Entity "latch"
+# Compile Entity "dlatch"
+# Compile Architecture "BEHAVIOR" of Entity "dlatch"
+# Compile Entity "PRIM_GDFF"
+# Compile Architecture "BEHAVIOR" of Entity "PRIM_GDFF"
+# Compile Entity "DFF"
+# Compile Architecture "BEHAVIOR" of Entity "DFF"
+# Compile Entity "DFFE"
+# Compile Architecture "BEHAVIOR" of Entity "DFFE"
+# Compile Entity "DFFEA"
+# Compile Architecture "BEHAVIOR" of Entity "DFFEA"
+# Compile Entity "DFFEAS"
+# Compile Architecture "vital_dffeas" of Entity "dffeas"
+# Compile Entity "PRIM_GTFF"
+# Compile Architecture "BEHAVIOR" of Entity "PRIM_GTFF"
+# Compile Entity "TFF"
+# Compile Architecture "BEHAVIOR" of Entity "TFF"
+# Compile Entity "TFFE"
+# Compile Architecture "BEHAVIOR" of Entity "TFFE"
+# Compile Entity "PRIM_GJKFF"
+# Compile Architecture "BEHAVIOR" of Entity "PRIM_GJKFF"
+# Compile Entity "JKFF"
+# Compile Architecture "BEHAVIOR" of Entity "JKFF"
+# Compile Entity "JKFFE"
+# Compile Architecture "BEHAVIOR" of Entity "JKFFE"
+# Compile Entity "PRIM_GSRFF"
+# Compile Architecture "BEHAVIOR" of Entity "PRIM_GSRFF"
+# Compile Entity "SRFF"
+# Compile Architecture "BEHAVIOR" of Entity "SRFF"
+# Compile Entity "SRFFE"
+# Compile Architecture "BEHAVIOR" of Entity "SRFFE"
+# Compile Entity "clklock"
+# Compile Architecture "behavior" of Entity "clklock"
+# Compile Entity "alt_inbuf"
+# Compile Architecture "BEHAVIOR" of Entity "alt_inbuf"
+# Compile Entity "alt_outbuf"
+# Compile Architecture "BEHAVIOR" of Entity "alt_outbuf"
+# Compile Entity "alt_outbuf_tri"
+# Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_tri"
+# Compile Entity "alt_iobuf"
+# Compile Architecture "BEHAVIOR" of Entity "alt_iobuf"
+# Compile Entity "alt_inbuf_diff"
+# Compile Architecture "BEHAVIOR" of Entity "alt_inbuf_diff"
+# Compile Entity "alt_outbuf_diff"
+# Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_diff"
+# Compile Entity "alt_outbuf_tri_diff"
+# Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_tri_diff"
+# Compile Entity "alt_iobuf_diff"
+# Compile Architecture "BEHAVIOR" of Entity "alt_iobuf_diff"
+# Compile Entity "alt_bidir_diff"
+# Compile Architecture "BEHAVIOR" of Entity "alt_bidir_diff"
+# Compile Entity "alt_bidir_buf"
+# Compile Architecture "BEHAVIOR" of Entity "alt_bidir_buf"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+
+alib  vhdl_libs/lpm_vhdl
+# Library Manager: Library "lpm_vhdl" attached.
+amap lpm vhdl_libs/lpm_vhdl
+# Library Manager: Library "lpm" attached.
+acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
+# Compile Package "LPM_COMPONENTS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
+# Compile Package "LPM_COMMON_CONVERSION"
+# Compile Package Body "LPM_COMMON_CONVERSION"
+# Compile Package "LPM_HINT_EVALUATION"
+# Compile Package Body "LPM_HINT_EVALUATION"
+# Compile Package "LPM_DEVICE_FAMILIES"
+# Compile Package Body "LPM_DEVICE_FAMILIES"
+# Compile Entity "LPM_CONSTANT"
+# Compile Architecture "LPM_SYN" of Entity "LPM_CONSTANT"
+# Compile Entity "LPM_INV"
+# Compile Architecture "LPM_SYN" of Entity "LPM_INV"
+# Compile Entity "lpm_and"
+# Compile Architecture "LPM_SYN" of Entity "lpm_and"
+# Compile Entity "LPM_OR"
+# Compile Architecture "LPM_SYN" of Entity "LPM_OR"
+# Compile Entity "LPM_XOR"
+# Compile Architecture "LPM_SYN" of Entity "LPM_XOR"
+# Compile Entity "LPM_BUSTRI"
+# Compile Architecture "LPM_SYN" of Entity "LPM_BUSTRI"
+# Compile Entity "LPM_MUX"
+# Compile Architecture "LPM_SYN" of Entity "LPM_MUX"
+# Compile Entity "LPM_DECODE"
+# Compile Architecture "LPM_SYN" of Entity "LPM_DECODE"
+# Compile Entity "LPM_CLSHIFT"
+# Compile Architecture "LPM_SYN" of Entity "LPM_CLSHIFT"
+# Compile Entity "LPM_ADD_SUB_SIGNED"
+# Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB_SIGNED"
+# Compile Entity "LPM_ADD_SUB_UNSIGNED"
+# Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB_UNSIGNED"
+# Compile Entity "LPM_ADD_SUB"
+# Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB"
+# Compile Entity "LPM_COMPARE_SIGNED"
+# Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE_SIGNED"
+# Compile Entity "LPM_COMPARE_UNSIGNED"
+# Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE_UNSIGNED"
+# Compile Entity "LPM_COMPARE"
+# Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE"
+# Compile Entity "LPM_MULT"
+# Compile Architecture "LPM_SYN" of Entity "LPM_MULT"
+# Compile Entity "LPM_DIVIDE"
+# Compile Architecture "behave" of Entity "lpm_divide"
+# Compile Entity "lpm_abs"
+# Compile Architecture "LPM_SYN" of Entity "LPM_ABS"
+# Compile Entity "LPM_COUNTER"
+# Compile Architecture "LPM_SYN" of Entity "LPM_COUNTER"
+# Compile Entity "LPM_LATCH"
+# Compile Architecture "LPM_SYN" of Entity "LPM_LATCH"
+# Compile Entity "LPM_FF"
+# Compile Architecture "LPM_SYN" of Entity "LPM_FF"
+# Compile Entity "LPM_SHIFTREG"
+# Compile Architecture "LPM_SYN" of Entity "LPM_SHIFTREG"
+# Compile Entity "LPM_RAM_DQ"
+# Compile Architecture "LPM_SYN" of Entity "lpm_ram_dq"
+# Compile Entity "LPM_RAM_DP"
+# Compile Architecture "LPM_SYN" of Entity "LPM_RAM_DP"
+# Compile Entity "LPM_RAM_IO"
+# Compile Architecture "LPM_SYN" of Entity "lpm_ram_io"
+# Compile Entity "LPM_ROM"
+# Compile Architecture "LPM_SYN" of Entity "lpm_rom"
+# Compile Entity "LPM_FIFO"
+# Compile Architecture "behavior" of Entity "LPM_FIFO"
+# Compile Entity "LPM_FIFO_DC_DFFPIPE"
+# Compile Architecture "behavior" of Entity "LPM_FIFO_DC_DFFPIPE"
+# Compile Entity "LPM_FIFO_DC_FEFIFO"
+# Compile Architecture "behavior" of Entity "LPM_FIFO_DC_FEFIFO"
+# Compile Entity "LPM_FIFO_DC_ASYNC"
+# Compile Architecture "behavior" of Entity "LPM_FIFO_DC_ASYNC"
+# Compile Entity "LPM_FIFO_DC"
+# Compile Architecture "behavior" of Entity "LPM_FIFO_DC"
+# Compile Entity "LPM_INpad"
+# Compile Architecture "LPM_SYN" of Entity "LPM_INpad"
+# Compile Entity "LPM_OUTpad"
+# Compile Architecture "LPM_SYN" of Entity "LPM_OUTpad"
+# Compile Entity "LPM_BIpad"
+# Compile Architecture "LPM_SYN" of Entity "LPM_BIpad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+
+alib  vhdl_libs/sgate_vhdl
+# Library Manager: Library "sgate_vhdl" attached.
+amap sgate vhdl_libs/sgate_vhdl
+# Library Manager: Library "sgate" attached.
+acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd
+# Compile Package "sgate_pack"
+# Compile Package Body "sgate_pack"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
+# Compile Entity "oper_add"
+# Compile Architecture "sim_arch" of Entity "oper_add"
+# Compile Entity "oper_addsub"
+# Compile Architecture "sim_arch" of Entity "oper_addsub"
+# Compile Entity "mux21"
+# Compile Architecture "sim_arch" of Entity "mux21"
+# Compile Entity "io_buf_tri"
+# Compile Architecture "sim_arch" of Entity "io_buf_tri"
+# Compile Entity "io_buf_opdrn"
+# Compile Architecture "sim_arch" of Entity "io_buf_opdrn"
+# Compile Entity "tri_bus"
+# Compile Architecture "sim_arch" of Entity "tri_bus"
+# Compile Entity "oper_mult"
+# Compile Architecture "sim_arch" of Entity "oper_mult"
+# Compile Entity "oper_div"
+# Compile Architecture "sim_arch" of Entity "oper_div"
+# Compile Entity "oper_mod"
+# Compile Architecture "sim_arch" of Entity "oper_mod"
+# Compile Entity "oper_left_shift"
+# Compile Architecture "sim_arch" of Entity "oper_left_shift"
+# Compile Entity "oper_right_shift"
+# Compile Architecture "sim_arch" of Entity "oper_right_shift"
+# Compile Entity "oper_rotate_left"
+# Compile Architecture "sim_arch" of Entity "oper_rotate_left"
+# Compile Entity "oper_rotate_right"
+# Compile Architecture "sim_arch" of Entity "oper_rotate_right"
+# Compile Entity "oper_less_than"
+# Compile Architecture "sim_arch" of Entity "oper_less_than"
+# Compile Entity "oper_mux"
+# Compile Architecture "sim_arch" of Entity "oper_mux"
+# Compile Entity "oper_selector"
+# Compile Architecture "sim_arch" of Entity "oper_selector"
+# Compile Entity "oper_prio_selector"
+# Compile Architecture "sim_arch" of Entity "oper_prio_selector"
+# Compile Entity "oper_decoder"
+# Compile Architecture "sim_arch" of Entity "oper_decoder"
+# Compile Entity "oper_bus_mux"
+# Compile Architecture "sim_arch" of Entity "oper_bus_mux"
+# Compile Entity "oper_latch"
+# Compile Architecture "sim_arch" of Entity "oper_latch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+
+alib  vhdl_libs/altera_mf_vhdl
+# Library Manager: Library "altera_mf_vhdl" attached.
+amap altera_mf vhdl_libs/altera_mf_vhdl
+# Library Manager: Library "altera_mf" attached.
+acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
+# Compile Package "altera_mf_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
+# Compile Entity "LCELL"
+# Compile Architecture "BEHAVIOR" of Entity "LCELL"
+# Compile Package "ALTERA_COMMON_CONVERSION"
+# Compile Package Body "ALTERA_COMMON_CONVERSION"
+# Compile Package "ALTERA_MF_HINT_EVALUATION"
+# Compile Package Body "ALTERA_MF_HINT_EVALUATION"
+# Compile Package "ALTERA_DEVICE_FAMILIES"
+# Compile Package Body "ALTERA_DEVICE_FAMILIES"
+# Compile Package "MF_pllpack"
+# Compile Package Body "MF_pllpack"
+# Compile Entity "DFFP"
+# Compile Architecture "behave" of Entity "DFFP"
+# Compile Entity "pll_iobuf"
+# Compile Architecture "BEHAVIOR" of Entity "pll_iobuf"
+# Compile Entity "MF_m_cntr"
+# Compile Architecture "behave" of Entity "MF_m_cntr"
+# Compile Entity "MF_n_cntr"
+# Compile Architecture "behave" of Entity "MF_n_cntr"
+# Compile Entity "stx_scale_cntr"
+# Compile Architecture "behave" of Entity "stx_scale_cntr"
+# Compile Entity "MF_pll_reg"
+# Compile Architecture "behave" of Entity "MF_pll_reg"
+# Compile Entity "MF_stratix_pll"
+# Compile Architecture "vital_pll" of Entity "MF_stratix_pll"
+# Compile Entity "arm_m_cntr"
+# Compile Architecture "behave" of Entity "arm_m_cntr"
+# Compile Entity "arm_n_cntr"
+# Compile Architecture "behave" of Entity "arm_n_cntr"
+# Compile Entity "arm_scale_cntr"
+# Compile Architecture "behave" of Entity "arm_scale_cntr"
+# Compile Entity "MF_stratixii_pll"
+# Compile Architecture "vital_pll" of Entity "MF_stratixii_pll"
+# Compile Entity "MF_ttn_mn_cntr"
+# Compile Architecture "behave" of Entity "MF_ttn_mn_cntr"
+# Compile Entity "MF_ttn_scale_cntr"
+# Compile Architecture "behave" of Entity "MF_ttn_scale_cntr"
+# Compile Entity "MF_stratixiii_pll"
+# Compile Architecture "vital_pll" of Entity "MF_stratixiii_pll"
+# Compile Entity "MF_cda_mn_cntr"
+# Compile Architecture "behave" of Entity "MF_cda_mn_cntr"
+# Compile Entity "MF_cda_scale_cntr"
+# Compile Architecture "behave" of Entity "MF_cda_scale_cntr"
+# Compile Entity "MF_cycloneiii_pll"
+# Compile Architecture "vital_pll" of Entity "MF_cycloneiii_pll"
+# Compile Entity "MF_stingray_mn_cntr"
+# Compile Architecture "behave" of Entity "MF_stingray_mn_cntr"
+# Compile Entity "MF_stingray_post_divider"
+# Compile Architecture "behave" of Entity "MF_stingray_post_divider"
+# Compile Entity "MF_stingray_scale_cntr"
+# Compile Architecture "behave" of Entity "MF_stingray_scale_cntr"
+# Compile Entity "MF_cycloneiiigl_pll"
+# Compile Architecture "vital_pll" of Entity "MF_cycloneiiigl_pll"
+# Compile Entity "altpll"
+# Compile Architecture "behavior" of Entity "altpll"
+# Compile Entity "altaccumulate"
+# Compile Architecture "behaviour" of Entity "altaccumulate"
+# Compile Entity "altmult_accum"
+# Compile Architecture "behaviour" of Entity "altmult_accum"
+# Compile Entity "altmult_add"
+# Compile Architecture "behaviour" of Entity "altmult_add"
+# Compile Entity "altfp_mult"
+# Compile Architecture "behavior" of Entity "altfp_mult"
+# Compile Entity "altsqrt"
+# Compile Architecture "behavior" of Entity "altsqrt"
+# Compile Entity "altclklock"
+# Compile Architecture "behavior" of Entity "altclklock"
+# Compile Entity "altddio_in"
+# Compile Architecture "behave" of Entity "altddio_in"
+# Compile Entity "altddio_out"
+# Compile Architecture "behave" of Entity "altddio_out"
+# Compile Entity "altddio_bidir"
+# Compile Architecture "struct" of Entity "altddio_bidir"
+# Compile Entity "stratixii_lvds_rx"
+# Compile Architecture "behavior" of Entity "stratixii_lvds_rx"
+# Compile Entity "flexible_lvds_rx"
+# Compile Architecture "behavior" of Entity "flexible_lvds_rx"
+# Compile Entity "stratixiii_lvds_rx_dpa"
+# Compile Architecture "behavior" of Entity "stratixiii_lvds_rx_dpa"
+# Compile Entity "stratixv_local_clk_divider"
+# Compile Architecture "behavior" of Entity "stratixv_local_clk_divider"
+# Compile Entity "stratixiii_lvds_rx_channel"
+# Compile Architecture "behavior" of Entity "stratixiii_lvds_rx_channel"
+# Compile Entity "stratixiii_lvds_rx"
+# Compile Architecture "behavior" of Entity "stratixiii_lvds_rx"
+# Compile Entity "altlvds_rx"
+# Compile Architecture "behavior" of Entity "altlvds_rx"
+# Compile Entity "stratix_tx_outclk"
+# Compile Architecture "behavior" of Entity "stratix_tx_outclk"
+# Compile Entity "stratixii_tx_outclk"
+# Compile Architecture "behavior" of Entity "stratixii_tx_outclk"
+# Compile Entity "flexible_lvds_tx"
+# Compile Architecture "behavior" of Entity "flexible_lvds_tx"
+# Compile Entity "altlvds_tx"
+# Compile Architecture "behavior" of Entity "altlvds_tx"
+# Compile Entity "altdpram"
+# Compile Architecture "behavior" of Entity "altdpram"
+# Compile Entity "altsyncram"
+# Compile Architecture "translated" of Entity "altsyncram"
+# Compile Entity "alt3pram"
+# Compile Architecture "behavior" of Entity "alt3pram"
+# Compile Entity "parallel_add"
+# Compile Architecture "behaviour" of Entity "parallel_add"
+# Compile Entity "SCFIFO"
+# Compile Architecture "behavior" of Entity "SCFIFO"
+# Compile Entity "DCFIFO_DFFPIPE"
+# Compile Architecture "behavior" of Entity "DCFIFO_DFFPIPE"
+# Compile Entity "DCFIFO_FEFIFO"
+# Compile Architecture "behavior" of Entity "DCFIFO_FEFIFO"
+# Compile Entity "DCFIFO_ASYNC"
+# Compile Architecture "behavior" of Entity "DCFIFO_ASYNC"
+# Compile Entity "DCFIFO_SYNC"
+# Compile Architecture "behavior" of Entity "DCFIFO_SYNC"
+# Compile Entity "DCFIFO_LOW_LATENCY"
+# Compile Architecture "behavior" of Entity "DCFIFO_LOW_LATENCY"
+# Compile Entity "DCFIFO_MIXED_WIDTHS"
+# Compile Architecture "behavior" of Entity "DCFIFO_MIXED_WIDTHS"
+# Compile Entity "DCFIFO"
+# Compile Architecture "behavior" of Entity "DCFIFO"
+# Compile Entity "altshift_taps"
+# Compile Architecture "behavioural" of Entity "altshift_taps"
+# Compile Entity "A_GRAYCOUNTER"
+# Compile Architecture "behavior" of Entity "A_GRAYCOUNTER"
+# Compile Entity "altsquare"
+# Compile Architecture "altsquare_syn" of Entity "altsquare"
+# Compile Entity "altera_std_synchronizer"
+# Compile Architecture "behavioral" of Entity "altera_std_synchronizer"
+# Compile Entity "altera_std_synchronizer_bundle"
+# Compile Architecture "behavioral" of Entity "altera_std_synchronizer_bundle"
+# Compile Entity "alt_cal"
+# Compile Architecture "RTL" of Entity "alt_cal"
+# Compile Entity "alt_cal_mm"
+# Compile Architecture "RTL" of Entity "alt_cal_mm"
+# Compile Entity "alt_cal_c3gxb"
+# Compile Architecture "RTL" of Entity "alt_cal_c3gxb"
+# Compile Entity "alt_cal_sv"
+# Compile Architecture "RTL" of Entity "alt_cal_sv"
+# Compile Entity "alt_cal_av"
+# Compile Architecture "RTL" of Entity "alt_cal_av"
+# Compile Package "alt_aeq_s4_func"
+# Compile Package Body "alt_aeq_s4_func"
+# Compile Entity "alt_aeq_s4"
+# Compile Architecture "trans" of Entity "alt_aeq_s4"
+# Compile Package "alt_eyemon_func"
+# Compile Package Body "alt_eyemon_func"
+# Compile Entity "alt_eyemon"
+# Compile Architecture "trans" of Entity "alt_eyemon"
+# Compile Package "alt_dfe_func"
+# Compile Package Body "alt_dfe_func"
+# Compile Entity "alt_dfe"
+# Compile Architecture "trans" of Entity "alt_dfe"
+# Compile Package "SLD_NODE"
+# Compile Package Body "SLD_NODE"
+# Compile Entity "signal_gen"
+# Compile Architecture "simModel" of Entity "signal_gen"
+# Compile Entity "jtag_tap_controller"
+# Compile Architecture "FSM" of Entity "jtag_tap_controller"
+# Compile Entity "dummy_hub"
+# Compile Architecture "behavior" of Entity "dummy_hub"
+# Compile Entity "sld_virtual_jtag"
+# Compile Architecture "structural" of Entity "sld_virtual_jtag"
+# Compile Entity "sld_signaltap"
+# Compile Architecture "sim_sld_signaltap" of Entity "sld_signaltap"
+# Compile Entity "altstratixii_oct"
+# Compile Architecture "sim_altstratixii_oct" of Entity "altstratixii_oct"
+# Compile Entity "altparallel_flash_loader"
+# Compile Architecture "sim_altparallel_flash_loader" of Entity "altparallel_flash_loader"
+# Compile Entity "altserial_flash_loader"
+# Compile Architecture "sim_altserial_flash_loader" of Entity "altserial_flash_loader"
+# Compile Entity "alt_fault_injection"
+# Compile Architecture "sim_alt_fault_injection" of Entity "alt_fault_injection"
+# Compile Entity "sld_virtual_jtag_basic"
+# Compile Architecture "sim_sld_virtual_jtag_basic" of Entity "sld_virtual_jtag_basic"
+# Compile Entity "altsource_probe"
+# Compile Architecture "sim_altsource_probe" of Entity "altsource_probe"
+# Compile success 0 Errors 0 Warnings  Analysis time :  7.0 [s]
+
+alib  vhdl_libs/altera_lnsim_vhdl
+# Library Manager: Library "altera_lnsim_vhdl" attached.
+amap altera_lnsim vhdl_libs/altera_lnsim_vhdl
+# Library Manager: Library "altera_lnsim" attached.
+alog  -sv2k5 -dbg -msg 0 -work altera_lnsim c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim.sv
+# Warning: VCP5090 ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim.sv : (1187, 37): Explicit lifetime definition is required for local variable "mega" initialized at declaration.
+# done
+acom -strict93 -dbg -work altera_lnsim c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
+# Compile Package "altera_lnsim_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+
+alib  vhdl_libs/cycloneive_vhdl
+# Library Manager: Library "cycloneive_vhdl" attached.
+amap cycloneive vhdl_libs/cycloneive_vhdl
+# Library Manager: Library "cycloneive" attached.
+acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd
+# Compile Package "cycloneive_atom_pack"
+# Compile Package Body "cycloneive_atom_pack"
+# Compile Package "cycloneive_pllpack"
+# Compile Package Body "cycloneive_pllpack"
+# Compile Entity "cycloneive_dffe"
+# Compile Architecture "behave" of Entity "cycloneive_dffe"
+# Compile Entity "cycloneive_mux21"
+# Compile Architecture "AltVITAL" of Entity "cycloneive_mux21"
+# Compile Entity "cycloneive_mux41"
+# Compile Architecture "AltVITAL" of Entity "cycloneive_mux41"
+# Compile Entity "cycloneive_and1"
+# Compile Architecture "AltVITAL" of Entity "cycloneive_and1"
+# Compile Entity "cycloneive_lcell_comb"
+# Compile Architecture "vital_lcell_comb" of Entity "cycloneive_lcell_comb"
+# Compile Entity "cycloneive_routing_wire"
+# Compile Architecture "behave" of Entity "cycloneive_routing_wire"
+# Compile Entity "cycloneive_mn_cntr"
+# Compile Architecture "behave" of Entity "cycloneive_mn_cntr"
+# Compile Entity "cycloneive_scale_cntr"
+# Compile Architecture "behave" of Entity "cycloneive_scale_cntr"
+# Compile Entity "cycloneive_pll_reg"
+# Compile Architecture "behave" of Entity "cycloneive_pll_reg"
+# Compile Entity "cycloneive_pll"
+# Compile Architecture "vital_pll" of Entity "cycloneive_pll"
+# Compile Entity "cycloneive_ff"
+# Compile Architecture "vital_lcell_ff" of Entity "cycloneive_ff"
+# Compile Entity "cycloneive_ram_register"
+# Compile Architecture "reg_arch" of Entity "cycloneive_ram_register"
+# Compile Entity "cycloneive_ram_pulse_generator"
+# Compile Architecture "pgen_arch" of Entity "cycloneive_ram_pulse_generator"
+# Compile Entity "cycloneive_ram_block"
+# Compile Architecture "block_arch" of Entity "cycloneive_ram_block"
+# Warning: ELBWRITE_0030: ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd : (5627, 0): Non resolved signal "be_mask_write" may have multiple sources.
+# Warning: ELBWRITE_0030: ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd : (6229, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd : (6231, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd : (6237, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+# Warning: ELBWRITE_0030: ../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_atoms.vhd : (6238, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Compile Entity "cycloneive_mac_data_reg"
+# Compile Architecture "vital_cycloneive_mac_data_reg" of Entity "cycloneive_mac_data_reg"
+# Compile Entity "cycloneive_mac_sign_reg"
+# Compile Architecture "cycloneive_mac_sign_reg" of Entity "cycloneive_mac_sign_reg"
+# Compile Entity "cycloneive_mac_mult_internal"
+# Compile Architecture "vital_cycloneive_mac_mult_internal" of Entity "cycloneive_mac_mult_internal"
+# Compile Entity "cycloneive_mac_mult"
+# Compile Architecture "vital_cycloneive_mac_mult" of Entity "cycloneive_mac_mult"
+# Compile Entity "cycloneive_mac_out"
+# Compile Architecture "vital_cycloneive_mac_out" of Entity "cycloneive_mac_out"
+# Compile Entity "cycloneive_io_ibuf"
+# Compile Architecture "arch" of Entity "cycloneive_io_ibuf"
+# Compile Entity "cycloneive_io_obuf"
+# Compile Architecture "arch" of Entity "cycloneive_io_obuf"
+# Compile Entity "cycloneive_ddio_oe"
+# Compile Architecture "arch" of Entity "cycloneive_ddio_oe"
+# Compile Entity "cycloneive_latch"
+# Compile Architecture "vital_latch" of Entity "cycloneive_latch"
+# Compile Entity "cycloneive_ddio_out"
+# Compile Architecture "arch" of Entity "cycloneive_ddio_out"
+# Compile Entity "cycloneive_pseudo_diff_out"
+# Compile Architecture "arch" of Entity "cycloneive_pseudo_diff_out"
+# Compile Entity "cycloneive_io_pad"
+# Compile Architecture "arch" of Entity "cycloneive_io_pad"
+# Compile Entity "cycloneive_asmiblock"
+# Compile Architecture "behavior" of Entity "cycloneive_asmiblock"
+# Compile Entity "cycloneive_ena_reg"
+# Compile Architecture "behave" of Entity "cycloneive_ena_reg"
+# Compile Entity "cycloneive_clkctrl"
+# Compile Architecture "vital_clkctrl" of Entity "cycloneive_clkctrl"
+# Compile Entity "cycloneive_rublock"
+# Compile Architecture "architecture_rublock" of Entity "cycloneive_rublock"
+# Compile Entity "cycloneive_apfcontroller"
+# Compile Architecture "architecture_apfcontroller" of Entity "cycloneive_apfcontroller"
+# Compile Entity "cycloneive_termination"
+# Compile Architecture "cycloneive_termination_arch" of Entity "cycloneive_termination"
+# Compile Entity "cycloneive_jtag"
+# Compile Architecture "architecture_jtag" of Entity "cycloneive_jtag"
+# Compile Entity "cycloneive_crcblock"
+# Compile Architecture "architecture_crcblock" of Entity "cycloneive_crcblock"
+# Compile Entity "cycloneive_oscillator"
+# Compile Architecture "architecture_oscillator" of Entity "cycloneive_oscillator"
+# Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
+acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
+# File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
+# Compile Package "cycloneive_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+
+addfile -c -auto C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v
+# Adding file C:\Quartus_Proyects\Timestamp\db\pll_400mhz_altpll.v ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\AFFD.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\FFD_N.vhd ... Done
+addfile -c -auto C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd
+# Adding file C:\Quartus_Proyects\PLL_400MHZ\PLL_400MHZ.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\restador_n.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Zero_Count.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Timestamp.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\TDC.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Synchronizer.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Shift_Left.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Regs.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Global_P.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Reg_N.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Reg_N.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\PLL.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\mux_2a1.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\FReg.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Fine_Counter.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\FFD.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Counter_N.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Coarse_Counter.vhd ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\Carry_Chain_N.vhd ... Done
+alog -O2 -sve -msg 5 -sv2k12 -work Timestamp $dsn/src/pll_400mhz_altpll.v
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2515 pll_400mhz_altpll.v : (81, 7): Undefined module: cycloneive_pll was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: PLL_400MHZ_altpll.
+# $root top modules: PLL_400MHZ_altpll.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -reorder -O3 -e 100 -work Timestamp -2002  $dsn/src/AFFD.vhd $dsn/src/FFD_N.vhd $dsn/src/PLL_400MHZ.vhd $dsn/src/restador_n.vhd $dsn/src/Zero_Count.vhd $dsn/src/Timestamp.vhd $dsn/src/TDC.vhd $dsn/src/Synchronizer.vhd $dsn/src/Shift_Left.vhd $dsn/src/Regs.vhd $dsn/src/Global_P.vhd $dsn/src/Reg_N.vhd $dsn/src/PLL.vhd $dsn/src/mux_2a1.vhd $dsn/src/FReg.vhd $dsn/src/Fine_Counter.vhd $dsn/src/FFD.vhd $dsn/src/Counter_N.vhd $dsn/src/Coarse_Counter.vhd $dsn/src/Carry_Chain_N.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/AFFD.vhd
+# Compile Entity "AFFD"
+# Compile Architecture "fsm" of Entity "AFFD"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/FFD_N.vhd
+# Compile Entity "FFD_N"
+# Compile Architecture "simple" of Entity "FFD_N"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/PLL_400MHZ.vhd
+# Compile Entity "PLL_400MHZ"
+# Compile Architecture "SYN" of Entity "pll_400mhz"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/restador_n.vhd
+# Compile Entity "restador_n"
+# Compile Architecture "aritmetica" of Entity "restador_n"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Zero_Count.vhd
+# Compile Entity "Zero_Count"
+# Compile Architecture "Behavioral" of Entity "Zero_Count"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd
+# Compile Entity "Timestamp"
+# Compile Architecture "Behavioral" of Entity "Timestamp"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/TDC.vhd
+# Compile Entity "TDC"
+# Compile Architecture "Behavioral" of Entity "TDC"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Synchronizer.vhd
+# Compile Entity "Synchronizer"
+# Compile Architecture "Behavioral" of Entity "Synchronizer"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Shift_Left.vhd
+# Compile Entity "Shift_Left"
+# Compile Architecture "Behavioral" of Entity "Shift_Left"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Regs.vhd
+# Compile Entity "Regs"
+# Compile Architecture "Behavioral" of Entity "Regs"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Global_P.vhd
+# Compile Entity "Global_P"
+# Compile Architecture "Behavioral" of Entity "Global_P"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Reg_N.vhd
+# Compile Entity "Reg_N"
+# Compile Architecture "Behavioral" of Entity "Reg_N"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/PLL.vhd
+# Compile Entity "PLL"
+# Compile Architecture "Behavioral" of Entity "PLL"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/mux_2a1.vhd
+# Compile Entity "mux_2a1"
+# Compile Architecture "simple" of Entity "mux_2a1"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/FReg.vhd
+# Compile Entity "FReg"
+# Compile Architecture "Behavioral" of Entity "FReg"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Fine_Counter.vhd
+# Compile Entity "Fine_Counter"
+# Compile Architecture "simple" of Entity "Fine_Counter"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/FFD.vhd
+# Compile Entity "FFD"
+# Compile Architecture "simple" of Entity "FFD"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Counter_N.vhd
+# Compile Entity "Counter_N"
+# Compile Architecture "simple" of Entity "Counter_N"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Coarse_Counter.vhd
+# Compile Entity "Coarse_Counter"
+# Compile Architecture "simple" of Entity "Coarse_Counter"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Carry_Chain_N.vhd
+# Compile Entity "Carry_Chain_N"
+# Compile Architecture "Behavioral" of Entity "Carry_Chain_N"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => Timestamp
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Fine_Counter.vhd
+# Compile Architecture "simple" of Entity "Fine_Counter"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/PLL.vhd
+# Compile Architecture "Behavioral" of Entity "PLL"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Regs.vhd
+# Compile Architecture "Behavioral" of Entity "Regs"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Synchronizer.vhd
+# Compile Architecture "Behavioral" of Entity "Synchronizer"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Global_P.vhd
+# Compile Architecture "Behavioral" of Entity "Global_P"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/TDC.vhd
+# Compile Architecture "Behavioral" of Entity "TDC"
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd
+# Compile Architecture "Behavioral" of Entity "Timestamp"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].

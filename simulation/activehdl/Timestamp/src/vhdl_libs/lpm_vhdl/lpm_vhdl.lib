@@ -1,0 +1,464 @@
+timestamp=1711853930408
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=262|0lpm_vhdl.mgf|265801|0
+1=37|1lpm_vhdl.mgf|200249|0
+3=37|3lpm_vhdl.mgf|208476|0
+
+[lpm_abs]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3121|1*100281
+BinW64/lpm_syn=3*73866
+I=0*121720
+I/lpm_syn=I/LPM_SYN 0*122838
+M=11|2|vef|1711853928708|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*121066*0xf4b3a50d6950653f0d050398e7ce256b271c7c57|0*121580*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928710|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*122039*0x5ebb453c1c08ebeb5ed3b831f229eb14eb6c8de1|0*122687*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3105
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|862f02744464522406ccdcef7614057926527262ddaa47cb266f3a3c4d9b973a9ab61a80aacc10bf47f225734f3f8fd3
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a9ab61a80aacc10bf47f225734f3f8fd3
+
+[lpm_add_sub]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1923|1*66207
+BinW64/lpm_syn=3*50428
+I=0*89478
+I/lpm_syn=I/LPM_SYN 0*92181
+M=11|2|vef|1711853928658|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*88459*0x0048fce68f292c984c01dca69e98d2b9d3c7a8fb|0*89334*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928663|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*89722*0x7b7660a2f6841fae47b38d4ffdaf866517939b3c|0*92026*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1897
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5e9b11c763a3d649fb2ed1113453378a0769ec6406ea58ef26676ba352877f26fe367218367caf84699f8f31539b11a1
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a3ea71306a4af15f7807af99fbfcb6749
+
+[lpm_add_sub_signed]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1617|1*58934
+BinW64/lpm_syn=3*42589
+I=0*79937
+I/lpm_syn=I/LPM_SYN 0*83339
+M=11|2|vef|1711853928623|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*78972*0x24e89b4ce65d61513dc2be89e966ffdd60ebd8ed|0*79786*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928627|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*80267*0x31f98847920371b75a2a825a3c39ddc1fa30f295|0*83177*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1591
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c1075bf28c25ff24ec62a24200262d735ab9652ee214845be933d8fa34d3a6072e21854758b091c12337b092ebc2089f
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973af9995cfb057e10ddf8a60739fbc56b66
+
+[lpm_add_sub_unsigned]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1779|1*62566
+BinW64/lpm_syn=3*46784
+I=0*85016
+I/lpm_syn=I/LPM_SYN 0*87761
+M=11|2|vef|1711853928642|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*84035*0x55c86a1c0d3dff6faf9ae51f86c96497b279d923|0*84863*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928646|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*85348*0xec2a5fc88152f7d4d246adcf99d77c85a2494c3e|0*87597*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1754
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c1075bf28c25ff24ec62a24200262d73fed91a274ccedc4c05d8289211b8220a550d2382633a77073c61f6e63fd147c8
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a4a99aa57c47b2f226a122e5110349438
+
+[lpm_and]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|747|1*37776
+BinW64/lpm_syn=3*26817
+I=0*56586
+I/lpm_syn=I/LPM_SYN 0*57819
+M=11|2|vef|1711853928536|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*55953*0x40681e6fe88963874d1815f7fa25820d8666ee2c|0*56446*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928539|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*56826*0x82c5c8dac89a380428270864c3bfd722675b6642|0*57668*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|728
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f4f6311990774440d85b6ee3e1ddbc9726527262ddaa47cb266f3a3c4d9b973aa3adce4779a8414e449f36c5b9f31a0b
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973aa3adce4779a8414e449f36c5b9f31a0b
+
+[lpm_bipad]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8635|1*200249
+BinW64/lpm_syn=3*208476
+I=0*264862
+I/lpm_syn=I/LPM_SYN 0*265801
+M=11|2|vef|1711853928872|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*264184*0x60fc1a06e911d9eaa862c1e7ff3bd6ff070fd77d|0*264720*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928875|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*265104*0xbba4cbfb54c9f7f33e6c5342df9f144cd9c7386d|0*265648*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8619
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a8063d73c8df7e925f60b0288791408cfa691fb2a845c7d0017de5fa3ce5db6c4ffb425bd578130efc3086947010b5a1
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a1fe1b2b813beda097750544fa9aa8035
+
+[lpm_bustri]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1041|1*46936
+BinW64/lpm_syn=3*31370
+I=0*63883
+I/lpm_syn=I/LPM_SYN 0*64994
+M=11|2|vef|1711853928566|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*63127*0x5aeb811cb3d1dc9f65c39174d4daabf57b56e054|0*63740*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928568|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*64205*0x7253559ffae584f88b87242c5150345955167dd0|0*64840*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1016
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|8a8d5780afa77d132c54839d95372e3037f542fb71f16afee2ac2c50177051c73f8428775b8632422000554b5a568557
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ac6fa853069230f19b31e18ecccef86f1
+
+[lpm_clshift]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1378|1*54554
+BinW64/lpm_syn=3*36887
+I=0*73214
+I/lpm_syn=I/LPM_SYN 0*78279
+M=11|2|vef|1711853928598|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*72221*0xa3b1b8ec5d1a7f3502c954c058defaaa0f2d0d89|0*73070*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928606|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*73540*0x8669ed8b6861479f6b2f463bc36ec8241b10f65d|0*78124*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1338
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|008ab639f05ccd3ac7435de697b6eddc47bc031eee87ac37fa0063871aaf49070fbf6a94e2552e870e104001be225578
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a0483b1d3f6d6f0f2f3b4b96d8306cf6f
+
+[lpm_common_conversion]
+BinW64/lpm_common_conversion=3*0
+E=1*4220
+I=0*16787
+I/lpm_common_conversion=I/LPM_COMMON_CONVERSION 0*21997
+M=3|2|vef|1711853928312|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*15965*0xc23f376e25089e243ba67396139b4b6db553b2d2|0*16633*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_common_conversion=M/LPM_COMMON_CONVERSION 4|2|vef|1711853928321|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*17001*0xcd84ddb4f51e526dbfcb82b25e2f88ef0d0b54b6|0*21819*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|45
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e665e770805b5362d7ff93080b3819473cc92ac3cd72057893dd3aebb6b256d6544e5ef09e44d02444a9e6f2ea81155d
+Version/lpm_common_conversion=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e665e770805b5362d7ff93080b3819473cc92ac3cd72057893dd3aebb6b256d6544e5ef09e44d02444a9e6f2ea81155d
+
+[lpm_compare]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2408|1*79643
+BinW64/lpm_syn=3*57151
+I=0*102515
+I/lpm_syn=I/LPM_SYN 0*105022
+M=11|2|vef|1711853928690|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*101553*0xc6e8ae4c02795f6fca3e324bfc4e662ccc6554b8|0*102371*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928692|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*102759*0x57542cb03474308040d55e118610ca69449ef1b0|0*104867*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2368
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|1d4bda96913cd9903b95ba751a816b111e5f1d453b4eeb6e73c557322e2d8670861611fc8afa6a76e1969330da189744
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a035a4fe095d576283a0072b8019b83c1
+
+[lpm_compare_signed]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2101|1*73339
+BinW64/lpm_syn=3*51527
+I=0*93780
+I/lpm_syn=I/LPM_SYN 0*96508
+M=11|2|vef|1711853928673|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*92836*0xacd79ce08acd2af3c45f651e40381eb7be1a5d0d|0*93629*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928678|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*94112*0x64a724324283d1f73638e4c14493b7532380adf6|0*96346*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2063
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cd2b5d538ce391c5f6d5b4283be6b26b21bdeab3fd8fd9b5505b9606ecdf5f5907a2ee647419bafd267082335ad3cb4a
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a934ec06a6310a532a5e83574af9e89d7
+
+[lpm_compare_unsigned]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2250|1*76487
+BinW64/lpm_syn=3*54343
+I=0*98130
+I/lpm_syn=I/LPM_SYN 0*100877
+M=11|2|vef|1711853928684|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*97178*0xb7e77f113605fee3ba21786fed83b810be6c2d64|0*97977*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928686|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*98465*0x21d6f7a654d7d97db8ecc9c5bf6261858546e18b|0*100713*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2212
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cd2b5d538ce391c5f6d5b4283be6b26b8a0ef1eb2f053dc7faa94c2c4c2fc7c4aa78ba537e53bc34f11512d4110ce6dd
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a13729d545181ab7fd327232eb480be9d
+
+[lpm_components]
+E=1*0
+I=0*15303
+M=3|2|vef|1711853927982|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd|0*908*0x27e5d09dfcac1be635dc3d7d4426bf3a06ef4b23|0*15157*0xaeff33d0d327e4f66feab22160c8fa0a
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd|15
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|69062e3443d1117cbb06ab3a4b0cdd7dc855009201dd2c2c04f06a457a43fb73b9fbc902a252750eae70dd9677813862
+
+[lpm_constant]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|634|1*34554
+BinW64/lpm_syn=3*25281
+I=0*52404
+I/lpm_syn=I/LPM_SYN 0*53299
+M=11|2|vef|1711853928517|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*51705*0xf7d51c428a9be22c8972533692c759787f997c24|0*52259*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928519|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*52731*0x86c465ea24a525e68245d98ae83ae85595a1c365|0*53143*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|612
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|83331ae57d06825f8aa424ec0e7da2994c6c9f8ce91fffc9e3200698a0ccd736dba07b567482a9f4f9ab9948592f7222
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a520b84f43f47c12dbd7dd0b46dc6dd9b
+
+[lpm_counter]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3217|1*101928
+BinW64/lpm_syn=3*75172
+I=0*124849
+I/lpm_syn=I/LPM_SYN 0*129976
+M=11|2|vef|1711853928714|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*123561*0xd990be7d4d98496df1c45ea449fb1d243ca438d0|0*124705*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928716|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*125215*0x224aca753469e456d7dacda19298e31d3cc7d79f|0*129821*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3183
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cb1b98d51588e0cc50d394686194bc0ddde9a151c609aea970adbb80f4762bfec609655bcc4b0567527e024877249b32
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973abac21df53b3ff6af0a31c04cfe67615f
+
+[lpm_decode]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1245|1*51832
+BinW64/lpm_syn=3*34740
+I=0*69761
+I/lpm_syn=I/LPM_SYN 0*71543
+M=11|2|vef|1711853928587|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*68958*0x54cce77bfa581cd8759333b0898fa5bd05a207d0|0*69618*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928589|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*70083*0x2eb1692975f6117eab7e1ef0702fdf7abe4c0043|0*71389*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1215
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|3834fd0f9a08e96efb72990644279e7be7ff1d7fe49263970c1b9fa0cf8830358d811ade4ac2069c388fb5015a4f69c2
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a464f7b0f45306c9170833976d5cf5ce7
+
+[lpm_device_families]
+BinW64/lpm_device_families=3*9630
+E=1*6743
+I=0*27108
+I/lpm_device_families=I/LPM_DEVICE_FAMILIES 0*51206
+M=3|2|vef|1711853928414|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*26032*0xa7c6f2e9974cddca26cfd892ece463b505d60e2e|0*26956*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_device_families=M/LPM_DEVICE_FAMILIES 4|2|vef|1711853928442|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*27321*0x69a1e548b3f2103283fae1bc640b8f93931e3536|0*51032*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|411
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e5d27d4d9f69b3dbecf3b6eb75b1b477b218e03c858b157abc212326bd1198df5fc0a1d57408af8ae9a6769147b96c4d
+Version/lpm_device_families=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e5d27d4d9f69b3dbecf3b6eb75b1b477b218e03c858b157abc212326bd1198df5fc0a1d57408af8ae9a6769147b96c4d
+
+[lpm_divide]
+A/behave=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2797|1*92385
+BinW64/behave=3*64692
+I=0*113497
+I/behave=0*120428
+M=11|2|vef|1711853928702|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*112437*0x0603b32d3e20ea6e8353ffc55af163a9f524142a|0*113354*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behave=21|2|vef|1711853928704|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*113865*0xa442d841e02667e0496c204a51c8b02e35a4a7a6|0*120275*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2773
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|9d9d550dc8bee3e84c9667990a3a77177e65b75a7546de4df6baad365a600609f998da26a0b95077f17d5d024844fe19
+Version/behave=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cdddabdfa22fcdb18d26f4ecd906536dbe731bfda570027ee4a09e1a83131645
+
+[lpm_ff]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3656|1*111316
+BinW64/lpm_syn=3*86468
+I=0*135353
+I/lpm_syn=I/LPM_SYN 0*138251
+M=11|2|vef|1711853928726|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*134354*0xf28c505998b31c7cd7f868cdc0a4d773078dc0e3|0*135214*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928728|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*135666*0xa93586bcb1dc6c20b8bf61ee69df1442d741e246|0*138101*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3625
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a7ec407aaf99c48b81f1a11413945d3ae024c2e58b30bf6c1b65ae600bd22cd
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ac1e4e15798b176c44b73566991613ec0
+
+[lpm_fifo]
+A/behavior=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7252|1*161413
+BinW64/behavior=3*186609
+I=0*228703
+I/behavior=0*235665
+M=11|2|vef|1711853928825|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*227703*0x30df1207379f7943f28c6f371da26d6d4029794b|0*228562*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|2|vef|1711853928827|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*229074*0xfe5192cc6c03009bbce47e1ac6eba4311041a739|0*235512*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7223
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|67791e110b398abe901a8b6c20b5635c0bafa52c4e5082916fa00306e52ea5edc42de348753ab6b66531ec46ff80b095
+Version/behavior=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc42de348753ab6b66531ec46ff80b095
+
+[lpm_fifo_dc]
+A/behavior=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8362|1*188168
+BinW64/behavior=3*204560
+I=0*255835
+I/behavior=0*259756
+M=11|2|vef|1711853928852|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*254619*0x7de0c65d6460b3cafdfd63f6c67538612f69a716|0*255691*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|2|vef|1711853928854|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*256204*0x60d7c11318ce64c9fcdb8a178cefce8adff9711e|0*259600*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8328
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|25d3010124fc691453afa13e426e7e34b626a09cea40d09b1c4471453c57bdd47f980ff80a6664e62f50724f94e30d1e
+Version/behavior=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fdf029f1a73c6f6dba8bae8fd82f8c61b
+
+[lpm_fifo_dc_async]
+A/behavior=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7904|1*173096
+BinW64/behavior=3*198197
+I=0*244885
+I/behavior=0*253796
+M=11|2|vef|1711853928846|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*243474*0x96569f381870ea0bae8efbfc59b69887d7e27242|0*244735*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|2|vef|1711853928848|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*245259*0xe3083bddb5d98420a5d3f0ff15c8058cb87a7457|0*253634*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7867
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf12847c50d44d920896effd7998f7002219569b08443e1946f301479d1f205aeb638b
+Version/behavior=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f3c8afaea584db69186fd59315c14661f
+
+[lpm_fifo_dc_dffpipe]
+A/behavior=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7603|1*167956
+BinW64/behavior=3*193320
+I=0*237015
+I/behavior=0*238426
+M=11|2|vef|1711853928834|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*236310*0x08ee0930901fbc1561f062306039f0bc7aa58633|0*236863*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|2|vef|1711853928836|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*237349*0x79366891f2d4e99a589fae134f0c8792471d90e9|0*238262*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7583
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf1284fb23409f2204f5416311a81524578c99e8e522c96d60aabc1d3c3f83400bfe14
+Version/behavior=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f42e1d2f6a14616c746d47c3219032693
+
+[lpm_fifo_dc_fefifo]
+A/behavior=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7697|1*169786
+BinW64/behavior=3*195333
+I=0*239964
+I/behavior=0*242707
+M=11|2|vef|1711853928840|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*239102*0x3897ee223fc67aaedf82e4e6234f0a4c57fc9c73|0*239813*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|2|vef|1711853928842|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*240297*0x3a2162ce527d07a4d68c1ad2559cae90a2b6ca5a|0*242544*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|7673
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf128462fcfc743f16db4a86d8fc4a11914e9840235baab4f3bceae1ab063af0e5ebca
+Version/behavior=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5ffe319143a9f0c8f7449ca2f79435f7c7
+
+[lpm_hint_evaluation]
+BinW64/lpm_hint_evaluation=3*7253
+E=1*5944
+I=0*23085
+I/lpm_hint_evaluation=I/LPM_HINT_EVALUATION 0*25357
+M=3|2|vef|1711853928343|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*22580*0x3b6780271d335e6e5f28c64808779556eef89c67|0*22933*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_hint_evaluation=M/LPM_HINT_EVALUATION 4|2|vef|1711853928346|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*23298*0xd5e69d91ece54430a70dcfd27513d1bbb5ad4c73|0*25183*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|331
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e007a700b9acc8c3a3b7e9c19fdaae0bcfc4c71038ba3413f475e3b69b615bf3b5fc790cb619628e76428a58cb82e8ac
+Version/lpm_hint_evaluation=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e007a700b9acc8c3a3b7e9c19fdaae0bcfc4c71038ba3413f475e3b69b615bf3b5fc790cb619628e76428a58cb82e8ac
+
+[lpm_inpad]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8527|1*197111
+BinW64/lpm_syn=3*207203
+I=0*261035
+I/lpm_syn=I/LPM_SYN 0*261792
+M=11|2|vef|1711853928858|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*260429*0xe7037598370397def44273b7ea39acb2e4947c14|0*260893*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928860|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*261277*0x655bb8b42a94e813a302ed4e5397008e17ab3ce2|0*261639*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8513
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|04020d62a2df781f417ff221574aee37d11a51508dfe70bf9efaf19ddf0be0fd0bd2ea0a1ee5c69b4669839a1b061839
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a16ec60a8e2a8f1540de82799876f5c39
+
+[lpm_inv]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|690|1*36197
+BinW64/lpm_syn=3*26030
+I=0*54515
+I/lpm_syn=I/LPM_SYN 0*55345
+M=11|2|vef|1711853928527|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*53885*0xf6418e6e48c7a6168aab533a137931c5815463bd|0*54375*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928529|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*54834*0x4b2232b0467887676b9f1ab6a90dafc0ccb2b042|0*55194*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|672
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|6b696c076f97ab3282e662948a07fbbd26527262ddaa47cb266f3a3c4d9b973a0dd197dafa12723a351a1458cb0bf412
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a0dd197dafa12723a351a1458cb0bf412
+
+[lpm_latch]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3504|1*107989
+BinW64/lpm_syn=3*82848
+I=0*131495
+I/lpm_syn=I/LPM_SYN 0*133701
+M=11|2|vef|1711853928720|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*130651*0xd639e2bdd3b81252ef8431f7f53094735cde079f|0*131353*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928722|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*131811*0x2c11f7214bfbb9292ac2cae68aa9c81384672128|0*133548*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3480
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5ae781f74ab0ae8180ad40769f29a431d11a51508dfe70bf9efaf19ddf0be0fdb0bbf8a8fe4840e32de28f1239f4f05a
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973afbe2e09a013a83426b993bc35e6f62c0
+
+[lpm_mult]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2578|1*85997
+BinW64/lpm_syn=3*58145
+I=0*106735
+I/lpm_syn=I/LPM_SYN 0*111751
+M=11|2|vef|1711853928696|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*105703*0x9b874a257b1cdc73ff017edba9d539faa059c7f6|0*106594*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928698|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*107055*0x8ec484f8602bf3c850fc5281ec75e44fdb3795bc|0*111599*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|2541
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|73d86a45483143d9ab78d93eddd0a229c1e12c4ef11dd369003335419fecd7b94d722fd6b6dfa7e4a63454f9166e67da
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a9833ada5740b7f4f60307175d71877f0
+
+[lpm_mux]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1127|1*48863
+BinW64/lpm_syn=3*32575
+I=0*66534
+I/lpm_syn=I/LPM_SYN 0*68316
+M=11|2|vef|1711853928575|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*65658*0x65228b5c52b8d3abcfe51d0faaa7b63c81021093|0*66394*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928578|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*66856*0xc47b59c84c761f3d29d4d141c23eb1ee98dcdf70|0*68165*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|1095
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0b484d6b232205a9a7140a06725686eb26527262ddaa47cb266f3a3c4d9b973af9caeb4e8573507f6f1ac12bfccf0c40
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973af12d189d318c854b8bd14c9466b12ab7
+
+[lpm_or]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|826|1*40830
+BinW64/lpm_syn=3*28337
+I=0*58971
+I/lpm_syn=I/LPM_SYN 0*60203
+M=11|2|vef|1711853928547|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*58345*0x7526b711c360eacf17e3bb8b57cb8ec118524879|0*58832*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928549|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*59210*0xcaa80d76b254194c6abae423e69df2d1cf57d66f|0*60053*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|808
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|48a0595209f5447dc01fb92e02ee430d6abb96c76cfacf5e45d5a70e482d85f3
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973aa3ffb5d1e45bf771899b9e15703cc887
+
+[lpm_outpad]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8580|1*198681
+BinW64/lpm_syn=3*207838
+I=0*262903
+I/lpm_syn=I/LPM_SYN 0*263662
+M=11|2|vef|1711853928864|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*262296*0xb6f7c47f842e32418f960cbfe7892891e7d34908|0*262760*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928866|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*263146*0x3e5ac238cba298b567b281750e464c3086959acf|0*263508*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|8566
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a4913fc90334bfeea2fd1a967d4c1df41d364effc8524d0b48071ac2ad7c9dd1b8db39a15c9824952acebfb7170172c3
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a6d224e446c0c26515054b032c229129b
+
+[lpm_ram_dp]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|4844|1*130068
+BinW64/lpm_syn=3*118717
+I=0*165750
+I/lpm_syn=I/LPM_SYN 0*185263
+M=11|2|vef|1711853928756|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*164345*0x9945848939e1fc4489fdeba06c419272084b07d4|0*165607*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928765|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*166156*0x249585e0ecd302042168dbc9be7d4839eabb1ffd|0*185109*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|4791
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a0cada9317b812be497cf2ded345ca1ad9e716938987b63141f5ca7722bf73a83d76b88d21fc04a15bc459112be50728
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a24996a81390fb4a9af1ed92c8e2c1742
+
+[lpm_ram_dq]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|4039|1*120226
+BinW64/lpm_syn=3*96714
+I=0*144902
+I/lpm_syn=I/LPM_SYN 0*163478
+M=11|2|vef|1711853928738|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*143725*0x7f9fab531fa3f145181ce032c18910376f81a1d9|0*144759*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928742|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*145308*0xf5f1bee96bb92b930961f0fbc951480efd08e0ca|0*163324*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3999
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|b20bccf3aa224dd97e6eef8ede46a53dcb187d6b8642614ab1b3d2c320160441d6215544565d36b4caf796f8c1739a4d
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a7e5b7a95c574914261798660ee861a8c
+
+[lpm_ram_io]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|5644|1*141497
+BinW64/lpm_syn=3*141673
+I=0*187243
+I/lpm_syn=I/LPM_SYN 0*206430
+M=11|2|vef|1711853928779|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*186089*0x7a76d20a26015c7291d07d2f10c1f47bf81858d6|0*187100*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928788|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*187608*0x067eaeba7debad2f312d89b848671d1dc94197d5|0*206276*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|5622
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f93c5860bd8b662d669a76ee9d0c85680292815f1af100bd5c32aeaa2ea5c3964357c05666e1ecce595af40032c24443
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a70943e863fbb7e588f15634ad607494f
+
+[lpm_rom]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|6451|1*151728
+BinW64/lpm_syn=3*164485
+I=0*208253
+I/lpm_syn=I/LPM_SYN 0*226921
+M=11|2|vef|1711853928802|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*207203*0x28794552f109b508daf67c206d2e5765079267e0|0*208113*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928811|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*208656*0xc25e0152057595a0a8e12a66dd9743ce3b1a472a|0*226770*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|6416
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|da26fc2f0c9881852f9754aa8923f25626527262ddaa47cb266f3a3c4d9b973ab38bd83eefffd339498fa8231a2b3c0d
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ab38bd83eefffd339498fa8231a2b3c0d
+
+[lpm_shiftreg]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3844|1*115524
+BinW64/lpm_syn=3*91409
+I=0*139985
+I/lpm_syn=I/LPM_SYN 0*143017
+M=11|2|vef|1711853928732|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*138927*0x30dc6aa65bea4443563b03635ddb6daed1892f12|0*139840*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928734|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*140304*0x7ffda4b563ac3026d6b4efcaff22aa0e8c08da16|0*142861*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|3803
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|3f4f4f6eaa8d90878a4f705481c50d1e746f67f88c3541db39f0bfb4ed5953f1deeba8f9d46050b5ebcb09d91dccdc54
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a66625df12c46a39eddd1176f0fd1067a
+
+[lpm_xor]
+A/lpm_syn=A/LPM_SYN 21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|907|1*43882
+BinW64/lpm_syn=3*29852
+I=0*61361
+I/lpm_syn=I/LPM_SYN 0*62597
+M=11|2|vef|1711853928557|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*60730*0x0f4a075ae146e30f9932d08d0b4cb17fbebe0a25|0*61221*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|2|vef|1711853928559|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|0*61601*0xcd9eb9365ccfb690bfd337466b260074df032c6a|0*62446*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd|889
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|51ddde5178f17df18e1f63622e3915c926527262ddaa47cb266f3a3c4d9b973ac70cd1c6039025345578327287cdd5ac
+Version/lpm_syn=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ac70cd1c6039025345578327287cdd5ac
+
+[~U]
+lpm_abs=11|0*120803|
+lpm_add_sub=LPM_ADD_SUB 11|0*88101|
+lpm_add_sub_signed=LPM_ADD_SUB_SIGNED 11|0*78613|
+lpm_add_sub_unsigned=LPM_ADD_SUB_UNSIGNED 11|0*83677|
+lpm_and=11|0*55672|
+lpm_bipad=LPM_BIpad 11|0*263913|
+lpm_bustri=LPM_BUSTRI 11|0*62845|
+lpm_clshift=LPM_CLSHIFT 11|0*71873|
+lpm_common_conversion=LPM_COMMON_CONVERSION 3|0*15511|0*15658
+lpm_compare=LPM_COMPARE 11|0*101220|
+lpm_compare_signed=LPM_COMPARE_SIGNED 11|0*92509|
+lpm_compare_unsigned=LPM_COMPARE_UNSIGNED 11|0*96848|
+lpm_components=LPM_COMPONENTS 3|0*0|0*194
+lpm_constant=LPM_CONSTANT 11|0*51439|
+lpm_counter=LPM_COUNTER 11|0*123165|
+lpm_decode=LPM_DECODE 11|0*68646|
+lpm_device_families=LPM_DEVICE_FAMILIES 3|0*25590|0*25734
+lpm_divide=LPM_DIVIDE 11|0*112079|
+lpm_ff=LPM_FF 11|0*134025|
+lpm_fifo=LPM_FIFO 11|0*227380|
+lpm_fifo_dc=LPM_FIFO_DC 11|0*254252|
+lpm_fifo_dc_async=LPM_FIFO_DC_ASYNC 11|0*243049|
+lpm_fifo_dc_dffpipe=LPM_FIFO_DC_DFFPIPE 11|0*236045|
+lpm_fifo_dc_fefifo=LPM_FIFO_DC_FEFIFO 11|0*238769|
+lpm_hint_evaluation=LPM_HINT_EVALUATION 3|0*22233|0*22377
+lpm_inpad=LPM_INpad 11|0*260176|
+lpm_inv=LPM_INV 11|0*53634|
+lpm_latch=LPM_LATCH 11|0*130350|
+lpm_mult=LPM_MULT 11|0*105346|
+lpm_mux=LPM_MUX 11|0*65324|
+lpm_or=LPM_OR 11|0*58067|
+lpm_outpad=LPM_OUTpad 11|0*262042|
+lpm_ram_dp=LPM_RAM_DP 11|0*163940|
+lpm_ram_dq=LPM_RAM_DQ 11|0*143344|
+lpm_ram_io=LPM_RAM_IO 11|0*185725|
+lpm_rom=LPM_ROM 11|0*206854|
+lpm_shiftreg=LPM_SHIFTREG 11|0*138572|
+lpm_xor=LPM_XOR 11|0*60450|

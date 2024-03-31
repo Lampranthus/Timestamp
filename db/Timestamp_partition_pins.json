@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "FCout1",
+					"strict" : false
+				},
+				{
+					"name" : "FCout2",
+					"strict" : false
+				},
+				{
+					"name" : "RR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RTC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "One",
+					"strict" : false
+				},
+				{
+					"name" : "Zero",
+					"strict" : false
+				},
+				{
+					"name" : "Trigger",
+					"strict" : false
+				},
+				{
+					"name" : "init",
+					"strict" : false
+				},
+				{
+					"name" : "Hit",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

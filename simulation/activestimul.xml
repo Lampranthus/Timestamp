@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<stimuli-settings>
+		<hierarchy activeStimuliSetName="StimuliSet1">
+			<stimuliSet name="StimuliSet1">
+				<stimulus name="CLK0" strength="default" enabled="true" type="clock">
+					<stimulus_data>
+						<period value="20ns"/>
+						<low_value value="0"/>
+						<high_value value="1"/>
+						<starting_value value="low"/>
+						<duty_cycle value="50.000000"/>
+						<offset value="0fs" enabled="false"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<frequency_jitter value="0fs" enabled="false"/>
+						<phase_jitter value="0fs" enabled="false"/>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/CLK0"/>
+					</signals>
+				</stimulus>
+				<stimulus name="RST" strength="default" enabled="true" type="formula">
+					<stimulus_data>
+						<repeat_time value="0fs" enabled="false"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<entries>
+							<entry value="0" time="0fs"/>
+							<entry value="1" time="17ns"/>
+						</entries>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/RST"/>
+					</signals>
+				</stimulus>
+				<stimulus name="init" strength="default" enabled="true" type="formula">
+					<stimulus_data>
+						<repeat_time value="0fs" enabled="false"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<entries>
+							<entry value="0" time="0fs"/>
+							<entry value="1" time="461ns"/>
+						</entries>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/init"/>
+					</signals>
+				</stimulus>
+				<stimulus name="Trigger" strength="default" enabled="true" type="clock">
+					<stimulus_data>
+						<period value="160ns"/>
+						<low_value value="0"/>
+						<high_value value="1"/>
+						<starting_value value="low"/>
+						<duty_cycle value="92.500000"/>
+						<offset value="462ns" enabled="true"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<frequency_jitter value="0fs" enabled="false"/>
+						<phase_jitter value="0fs" enabled="false"/>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/Trigger"/>
+					</signals>
+				</stimulus>
+				<stimulus name="Hit" strength="default" enabled="true" type="clock">
+					<stimulus_data>
+						<period value="160ns"/>
+						<low_value value="0"/>
+						<high_value value="1"/>
+						<starting_value value="low"/>
+						<duty_cycle value="92.500000"/>
+						<offset value="463ns" enabled="true"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<frequency_jitter value="0fs" enabled="false"/>
+						<phase_jitter value="0fs" enabled="false"/>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/Hit"/>
+					</signals>
+				</stimulus>
+				<stimulus name="Zero" strength="default" enabled="true" type="formula">
+					<stimulus_data>
+						<repeat_time value="0fs" enabled="false"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<entries>
+							<entry value="0" time="0fs"/>
+						</entries>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/Zero"/>
+					</signals>
+				</stimulus>
+				<stimulus name="One" strength="default" enabled="true" type="formula">
+					<stimulus_data>
+						<repeat_time value="0fs" enabled="false"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<entries>
+							<entry value="1" time="0fs"/>
+						</entries>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/One"/>
+					</signals>
+				</stimulus>
+				<stimulus name="Trigger_n" strength="default" enabled="true" type="clock">
+					<stimulus_data>
+						<period value="160ns"/>
+						<low_value value="1"/>
+						<high_value value="0"/>
+						<starting_value value="low"/>
+						<duty_cycle value="92.500000"/>
+						<offset value="462ns" enabled="true"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<frequency_jitter value="0fs" enabled="false"/>
+						<phase_jitter value="0fs" enabled="false"/>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/\Trigger(n)\"/>
+					</signals>
+				</stimulus>
+				<stimulus name="Hit_n" strength="default" enabled="true" type="clock">
+					<stimulus_data>
+						<period value="160ns"/>
+						<low_value value="1"/>
+						<high_value value="0"/>
+						<starting_value value="low"/>
+						<duty_cycle value="92.500000"/>
+						<offset value="463ns" enabled="true"/>
+						<cancel_time value="0fs" enabled="false"/>
+						<frequency_jitter value="0fs" enabled="false"/>
+						<phase_jitter value="0fs" enabled="false"/>
+					</stimulus_data>
+					<signals>
+						<signal path="/Timestamp/\Hit(n)\"/>
+					</signals>
+				</stimulus>
+			</stimuliSet>
+		</hierarchy>
+	</stimuli-settings>
+	<sequences-settings/>
+</root>
