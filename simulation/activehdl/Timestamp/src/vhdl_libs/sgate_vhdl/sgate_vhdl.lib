@@ -1,4 +1,4 @@
-timestamp=1711853932116
+timestamp=1711876609290
 
 [~A]
 ModifyID=2
@@ -14,231 +14,231 @@ A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib
 BinW64/sim_arch=3*6754
 I=0*16706
 I/sim_arch=0*17316
-M=11|2|vef|1711853931658|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*16269*0xde9051f7a7b8d59258142eae90773fa16eb7c0a1|0*16564*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931660|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*16912*0xc9b48bc6f74ef557920bda0c1051c7c2e1dea316|0*17162*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608638|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*16269*0xde9051f7a7b8d59258142eae90773fa16eb7c0a1|0*16564*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608640|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*16912*0xc9b48bc6f74ef557920bda0c1051c7c2e1dea316|0*17162*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|265
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|352d0d24d39edeb0abfb5e9e4764bc734280b2653aaa26fa75a24d0509412b87e509e08a1033564fb8810fae582d19c5
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933ac8cc1b480428259e2f4a1cf2791253b
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|352d0d24d39edeb0abfb5e9e4764bc734280b2653aaa26fa75a24d0509412b87eab78bba675d717db25c9740e4f58f99
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b47f72395a6dfe40a55685dd3a6df859
 
 [io_buf_tri]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|250|1*9353
 BinW64/sim_arch=3*6352
 I=0*15264
 I/sim_arch=0*15868
-M=11|2|vef|1711853931651|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*14817*0x71327eb2d01307bba0bea29df0d74f4093b5b22d|0*15124*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931653|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*15468*0xa749c52d3e60916d5455ceba7eb33a84067510b6|0*15716*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608629|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*14817*0x71327eb2d01307bba0bea29df0d74f4093b5b22d|0*15124*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608631|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*15468*0xa749c52d3e60916d5455ceba7eb33a84067510b6|0*15716*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|241
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|bfdef75fc817d01b461539d0ed1d149476b0027d4c69ea6af6ffd28b0945d95b534fc286ae527745d4dbc0f70d0879ff
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933fd52c34008e874e06b971b5f6200ee2d
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|bfdef75fc817d01b461539d0ed1d149476b0027d4c69ea6af6ffd28b0945d95b69fa13e60addf39a0467b0b134d0c748
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933399c6aef5a43ac44450693b92ed6ffa4
 
 [mux21]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|225|1*8561
 BinW64/sim_arch=3*5942
 I=0*13824
 I/sim_arch=0*14420
-M=11|2|vef|1711853931645|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*13365*0x1318db850ae01d27784030cfda4d7f7b54b669cd|0*13689*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931647|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*14023*0xe5f2901f922166134b9766b7cbdab4f77b930687|0*14273*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608619|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*13365*0x1318db850ae01d27784030cfda4d7f7b54b669cd|0*13689*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608621|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*14023*0xe5f2901f922166134b9766b7cbdab4f77b930687|0*14273*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|215
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|959acea00ed13aea6f5c6237bd5f200a1f624e9dfa8d8148416c82cb72888cbb
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933ea2aab2526efad4aedc52b6b6d7c39db
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|959acea00ed13aea6f5c6237bd5f200a22f447e67c15ac00be1ba8e548453001
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59337a5bbe4e43094fcda27b03dded4b5589
 
 [oper_add]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|41|1*784
 BinW64/sim_arch=3*833
 I=0*7423
 I/sim_arch=0*9598
-M=11|2|vef|1711853931612|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*6698*0xc923384c405f63b74b5dc3d1085cc12560288038|0*7285*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931617|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*7702*0x67542aba5d1463f9b1f7b932a4c25450e5366973|0*9448*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608568|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*6698*0xc923384c405f63b74b5dc3d1085cc12560288038|0*7285*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608576|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*7702*0x67542aba5d1463f9b1f7b932a4c25450e5366973|0*9448*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|23
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5e62a9100ba189e5cc6b80d28da3fca62818afb70cf1f2f39ae611a8b84306906ef4210ed8364e157eb9f132e6706602
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933e91e9b7ef41f3f45845d945ecd34d2c7
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5e62a9100ba189e5cc6b80d28da3fca62818afb70cf1f2f39ae611a8b8430690f91ba1777acc103fdfb77b1096d4b424
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933816b45a236d112c9248b864d5ec895b7
 
 [oper_addsub]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|137|1*4923
 BinW64/sim_arch=3*3537
 I=0*10872
 I/sim_arch=0*12883
-M=11|2|vef|1711853931631|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*10153*0xca8be5560ebbc704e1eb07859640dcfc0e50c688|0*10731*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931634|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*11154*0x6559fc28b6bf5ebec8a423cf6abbb0dda9100442|0*12730*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608599|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*10153*0xca8be5560ebbc704e1eb07859640dcfc0e50c688|0*10731*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608603|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*11154*0x6559fc28b6bf5ebec8a423cf6abbb0dda9100442|0*12730*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|120
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0366580054b31b9e65234391f2cbc5281e5292cf0faecda30ecbfa6c57a45f427db7933dfe22cc0b42924870d5b58ac0
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59335655a6b412f12120b04f56dcec5e93e6
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0366580054b31b9e65234391f2cbc5281e5292cf0faecda30ecbfa6c57a45f425d828184b521594bfabc6d5e13c171d1
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59331eed08aa6e10a7133f77908c41018bbc
 
 [oper_bus_mux]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1204|1*50070
 BinW64/sim_arch=3*26787
 I=0*51399
 I/sim_arch=0*52450
-M=11|2|vef|1711853931847|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*50777*0xd3aa7334955bbe6dc6541e6f5978f06261c61fb5|0*51257*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931849|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*51605*0x6f8ce55bb14904e6d324c75df6df7cfa42f64273|0*52296*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608903|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*50777*0xd3aa7334955bbe6dc6541e6f5978f06261c61fb5|0*51257*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608906|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*51605*0x6f8ce55bb14904e6d324c75df6df7cfa42f64273|0*52296*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1187
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ebb61cf53a419da92441aafa28d8c648f47ae9bb63ee924dd0b769661077e31d6e27358f2d060e2b09820b98442c21a0
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59334c43e01aceea7b4db0ba4b7c58cb20c5
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ebb61cf53a419da92441aafa28d8c648f47ae9bb63ee924dd0b769661077e31de9bd776654e15397364340aa0e926e11
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933cb5245494c6d1d16d60338e411d80661
 
 [oper_decoder]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1149|1*48224
 BinW64/sim_arch=3*25406
 I=0*49209
 I/sim_arch=0*50286
-M=11|2|vef|1711853931837|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*48646*0xf691b68ba2f821e4e2e9b20032a82c25082076b2|0*49067*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931839|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*49446*0xc8e01086f3d5e65b87276073a47dca5a979299de|0*50132*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608889|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*48646*0xf691b68ba2f821e4e2e9b20032a82c25082076b2|0*49067*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608892|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*49446*0xc8e01086f3d5e65b87276073a47dca5a979299de|0*50132*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1136
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|4136e173de9efd91a63050e71909df75f93d16a0d5e00bec5bc4259eea27da5566e85ad9f5a2e0fd1ed21f653a32b1d7
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59330d91a0f444b654240ef4a38c125134ea
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|4136e173de9efd91a63050e71909df75f93d16a0d5e00bec5bc4259eea27da55a4d6d8c4fb0869a2c03fd4bcb7ff1fab
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b79adb9c999c8a7a9ecf677ec22e5183
 
 [oper_div]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|436|1*15856
 BinW64/sim_arch=3*10176
 I=0*23303
 I/sim_arch=0*24991
-M=11|2|vef|1711853931706|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*22613*0x8e249e8adb2d2c041f28690ade72eb31402d7e27|0*23165*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931714|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*23581*0x3c3a9df1667a02a3ed1d06002d3f26143bc2b6f5|0*24841*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608710|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*22613*0x8e249e8adb2d2c041f28690ade72eb31402d7e27|0*23165*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608721|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*23581*0x3c3a9df1667a02a3ed1d06002d3f26143bc2b6f5|0*24841*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|420
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|330fae5dbb5c03c988f5bb041e22a2ea23b0775eaf50bfb15e1a083253ac86ef4dda405c8d7cea85145fa3c923ff2b30
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59334dda405c8d7cea85145fa3c923ff2b30
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|330fae5dbb5c03c988f5bb041e22a2ea23b0775eaf50bfb15e1a083253ac86ef58ff4313ce3b26ac6f1dd13bda3a4fa9
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593358ff4313ce3b26ac6f1dd13bda3a4fa9
 
 [oper_latch]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1257|1*52017
 BinW64/sim_arch=3*27872
 I=0*53411
 I/sim_arch=0*54177
-M=11|2|vef|1711853931856|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*52876*0x76f2cd8a0e44cdf014d02f1a4013f421b88e8adc|0*53271*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931858|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*53646*0xc8d47b9a29dbb41124874c0a6cda1e6ec8f344ad|0*54025*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608917|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*52876*0x76f2cd8a0e44cdf014d02f1a4013f421b88e8adc|0*53271*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608920|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*53646*0xc8d47b9a29dbb41124874c0a6cda1e6ec8f344ad|0*54025*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1246
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|eb3d1123ee7c1687dd58d460280bb935a13f858aa93b90b388a49a62f7159ceda5b52f744ad09402ca99eed69d06d687
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593305cad456b42d038ce5d3692e2acc77c1
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|eb3d1123ee7c1687dd58d460280bb935a13f858aa93b90b388a49a62f7159ced017f03ae4c30855a73fd0a3b72573062
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933adc5a906a3127db87d9a32d320ece64f
 
 [oper_left_shift]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|608|1*25859
 BinW64/sim_arch=3*13756
 I=0*29173
 I/sim_arch=0*30854
-M=11|2|vef|1711853931738|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*28423*0x2916c25542dc5729714f9c642a686e2ed300916a|0*29028*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931742|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*29462*0x4ca8960928854c7ba761cae67e51d9b74a66e693|0*30697*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608756|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*28423*0x2916c25542dc5729714f9c642a686e2ed300916a|0*29028*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608760|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*29462*0x4ca8960928854c7ba761cae67e51d9b74a66e693|0*30697*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|591
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|71c422a85696a1fcbf24867237898d3341a739c5e8b02c8ca27ed3a0ab8d2f5a0e17b5b9aef083d67e45bba98b256796
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59339692cd4a80bfa957461fb0017471cff0
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|71c422a85696a1fcbf24867237898d3341a739c5e8b02c8ca27ed3a0ab8d2f5a42b8a1b131c8ce7e77bad74805202232
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59335cd5d79cfb945ef609d228826bfbb22a
 
 [oper_less_than]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|932|1*40945
 BinW64/sim_arch=3*21145
 I=0*40703
 I/sim_arch=0*42222
-M=11|2|vef|1711853931794|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*40054*0x3fe7d7ca3f51c7e24a39b1927da202f2b3967d4a|0*40559*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931796|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*40942*0x11164dfa092ef686ee01a738d0ac14b4b0428a05|0*42066*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608827|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*40054*0x3fe7d7ca3f51c7e24a39b1927da202f2b3967d4a|0*40559*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608831|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*40942*0x11164dfa092ef686ee01a738d0ac14b4b0428a05|0*42066*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|916
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|fff179fc4174dd7834e3fa08c59d06991eef974df35ec00b7e7bfa3c56882a0f21e67c8c045fdea5a80ce4088e92d878
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933c38813bb9285f4b4e184874a0eb170af
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|fff179fc4174dd7834e3fa08c59d06991eef974df35ec00b7e7bfa3c56882a0f7951cb4bb940538b2efc23b39898230e
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b4303cc12cacda15c21aa8b370aec9ce
 
 [oper_mod]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|523|1*20895
 BinW64/sim_arch=3*11968
 I=0*26209
 I/sim_arch=0*27856
-M=11|2|vef|1711853931724|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*25559*0xc941ca05a84f7c57cb85463f1235fa56b409f441|0*26071*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931728|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*26452*0xb617deae67ed32c8e5ab5a3889e6d430b350773f|0*27706*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608737|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*25559*0xc941ca05a84f7c57cb85463f1235fa56b409f441|0*26071*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608742|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*26452*0xb617deae67ed32c8e5ab5a3889e6d430b350773f|0*27706*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|507
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|8d06492ec5a84430b1104196c414f923bf54c37a5929d0b0bef44c4f98f3ba18b484181a875d43fd5e4ba8c6e05e6fce
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b484181a875d43fd5e4ba8c6e05e6fce
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|8d06492ec5a84430b1104196c414f923bf54c37a5929d0b0bef44c4f98f3ba18c17d3599185e98fb3f3624a8304d93d7
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933744b37666c616d53cb8799db5ef66bf5
 
 [oper_mult]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|355|1*12562
 BinW64/sim_arch=3*8114
 I=0*20402
 I/sim_arch=0*22070
-M=11|2|vef|1711853931677|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*19714*0xd98b5f9e26c7738ad3f73e7296c360d30062093c|0*20263*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931680|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*20682*0xef84a358a191ba0b993d1d4b256e6e34bcc4527b|0*21919*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608664|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*19714*0xd98b5f9e26c7738ad3f73e7296c360d30062093c|0*20263*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608669|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*20682*0xef84a358a191ba0b993d1d4b256e6e34bcc4527b|0*21919*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|339
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0072e9382ea4cdea8b1b737fbb4f9e4e39f08beca6824c6950d73c955418dcb7fd239f46b47bba08722de2b3d3fc62f3
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933381f2e3e2c9d00bf3d0e74050d63278f
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0072e9382ea4cdea8b1b737fbb4f9e4e39f08beca6824c6950d73c955418dcb7daa4c064ea0d7326c3c9ca9cfa276b0a
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933ec0f474a802e7a611abed50e582f1c26
 
 [oper_mux]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1016|1*43570
 BinW64/sim_arch=3*22729
 I=0*43292
 I/sim_arch=0*44174
-M=11|2|vef|1711853931810|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*42704*0xcbe0410a2c05fd18c8452fb924f03fcb0a562037|0*43154*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931812|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*43530*0x76c73670564fecc2ac6c7a1de6d26ccedd1a0b72|0*44024*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608852|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*42704*0xcbe0410a2c05fd18c8452fb924f03fcb0a562037|0*43154*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608854|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*43530*0x76c73670564fecc2ac6c7a1de6d26ccedd1a0b72|0*44024*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1001
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c89ab02314426ee986b16abab2f788513de928612a4f300a0130f3a4cd5eb21f52b530c330ad4255859ef33694977391
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593352b530c330ad4255859ef33694977391
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c89ab02314426ee986b16abab2f788513de928612a4f300a0130f3a4cd5eb21f7d4b016a2c8b75abf6443c3ffc4238a1
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59334cc72464ecccb114de117254be6f2e97
 
 [oper_prio_selector]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1119|1*46776
 BinW64/sim_arch=3*24728
 I=0*47364
 I/sim_arch=0*48117
-M=11|2|vef|1711853931829|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*46697*0xdca5d5126795415fdac6976f5ced9f6cc789eaa3|0*47216*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931831|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*47653*0x9a00e15b764333e1b0c9a18371bd31c8beca4ffc|0*47957*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608879|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*46697*0xdca5d5126795415fdac6976f5ced9f6cc789eaa3|0*47216*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608881|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*47653*0x9a00e15b764333e1b0c9a18371bd31c8beca4ffc|0*47957*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1104
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2781b3c8d437e03ea473fef4d37a8c27ddf64839d78f6abc090fc768519ed4f9b33813796841ebb771f2de1e0e0e187a
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593399ad76fa192f2467089a637c72c4593a
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2781b3c8d437e03ea473fef4d37a8c27ddf64839d78f6abc090fc768519ed4f9f667554ca32de49b4a03d0eefd6a5a72
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933d558ab5d99f9635821445d6ab2a1b1ce
 
 [oper_right_shift]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|688|1*28603
 BinW64/sim_arch=3*15763
 I=0*32187
 I/sim_arch=0*33946
-M=11|2|vef|1711853931753|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*31433*0xd8f514702985ed8e0f7498c2fb4877e1a577a8d0|0*32041*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931756|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*32477*0xea5fee39dd004559ca3a8a06b0086826a19f01e4|0*33788*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608774|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*31433*0xd8f514702985ed8e0f7498c2fb4877e1a577a8d0|0*32041*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608778|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*32477*0xea5fee39dd004559ca3a8a06b0086826a19f01e4|0*33788*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|671
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7c58ce914210dc94ea6d6a8e195da710d912761c59fa0921be3d3a3f08b11848eea5eae940c816ce5733acbe4982dd1a
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59333dbb505075dbd11b4fc79f5382792f0b
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7c58ce914210dc94ea6d6a8e195da710d912761c59fa0921be3d3a3f08b11848b402bc3bf1a515de6395f3844ae7e4d1
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59333280cd46886c7efd8dbc3b792cd2df2a
 
 [oper_rotate_left]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|776|1*31490
 BinW64/sim_arch=3*18073
 I=0*35212
 I/sim_arch=0*36711
-M=11|2|vef|1711853931766|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*34512*0xf0838e897fabfb9867705725742b1a2dfcb7286c|0*35066*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931769|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*35463*0xf7cd41b692585d715c0b2504ab37e90dbf3dcab5|0*36553*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608792|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*34512*0xf0838e897fabfb9867705725742b1a2dfcb7286c|0*35066*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608797|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*35463*0xf7cd41b692585d715c0b2504ab37e90dbf3dcab5|0*36553*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|760
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|39f7e0dc58f1ce088e7b8ce2ab3d650a856b62e7a27383d37cf6b11b55425eac7866ea324ef23262a854cf4fb99dbe96
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933f14d47de3c228445ad7a2305c83d1394
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|39f7e0dc58f1ce088e7b8ce2ab3d650a856b62e7a27383d37cf6b11b55425eac2b4f1e501f6a854869540b62dd7b0926
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933c5f7dceaf05fe40d77ede44c301a2baf
 
 [oper_rotate_right]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|855|1*36199
 BinW64/sim_arch=3*19605
 I=0*37991
 I/sim_arch=0*39494
-M=11|2|vef|1711853931778|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*37280*0x1363d9cd946bc8aeb1cd15b90f2a020b05b853a9|0*37844*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931781|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*38243*0xbdca9f158e026a58c8703b616d7cc2c7f1b4971b|0*39335*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608810|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*37280*0x1363d9cd946bc8aeb1cd15b90f2a020b05b853a9|0*37844*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608814|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*38243*0xbdca9f158e026a58c8703b616d7cc2c7f1b4971b|0*39335*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|839
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2e6d667c82c4dab82fb516a0502e04f0a7538104e3de42fa700a9c03df52c58b142e5c1c2dc7ebeefbb979dec6944379
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933f653b44c4bd0b721406193b3d065b276
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2e6d667c82c4dab82fb516a0502e04f0a7538104e3de42fa700a9c03df52c58bddab5a15c734e7fa56a117f502fba321
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593375441ae48042fa21f2571a2037fc4f9e
 
 [oper_selector]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1062|1*45207
 BinW64/sim_arch=3*23566
 I=0*45232
 I/sim_arch=0*46229
-M=11|2|vef|1711853931820|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*44661*0x8b2444bd6319bbdcee59de5335d1a6f6299fcd18|0*45089*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931822|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*45439*0x95b98fbf5f7becb04f5a5e7e18b78c4215e074f6|0*46074*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608865|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*44661*0x8b2444bd6319bbdcee59de5335d1a6f6299fcd18|0*45089*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608868|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*45439*0x95b98fbf5f7becb04f5a5e7e18b78c4215e074f6|0*46074*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|1048
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0c150b6f9d8008307637009ff09db995b044b831af9bff36320050d0c566303ee1927f3a4792a7139fc88d690b6d3d0a
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933bcba2e32893e3ce14a82e2e2f03b8dbd
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0c150b6f9d8008307637009ff09db995b044b831af9bff36320050d0c566303ef29474d7341f07140ef4e85228149fcc
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933818c2a247045c1c972981ae9b6d06bd6
 
 [sgate_pack]
 BinW64/sgate_pack=3*0
 E=1*0
 I=0*5438
 I/sgate_pack=0*6219
-M=3|2|vef|1711853931412|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd|0*534*0x06afffbae8b82ba1b6b9d5a49ea075aaf315d8c5|0*5293*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sgate_pack=4|2|vef|1711853931415|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd|0*5642*0x5f0d07d3b44abc0b1f89a59bc328672e291a65f5|0*6061*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=3|2|vef|1711876607920|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd|0*534*0x06afffbae8b82ba1b6b9d5a49ea075aaf315d8c5|0*5293*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sgate_pack=4|2|vef|1711876607933|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd|0*5642*0x5f0d07d3b44abc0b1f89a59bc328672e291a65f5|0*6061*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd|20
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a5d824b10cdf511a83fd2bfa622c815a41
-Version/sgate_pack=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a5d824b10cdf511a83fd2bfa622c815a41
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a5a4162b529adee183df2bec5dc402cf80
+Version/sgate_pack=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a5a4162b529adee183df2bec5dc402cf80
 
 [tri_bus]
 A/sim_arch=21|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|305|1*10796
 BinW64/sim_arch=3*7142
 I=0*18303
 I/sim_arch=0*19246
-M=11|2|vef|1711853931666|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*17757*0xadcb7f13317e4feeffc8cb03118c9f1f06295e42|0*18166*0xaeff33d0d327e4f66feab22160c8fa0a
-M/sim_arch=21|2|vef|1711853931668|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*18504*0xb53cdc6d14b3188e0585c33f8c0a4846d3b06457|0*19097*0xdc2f6eaac86fc4b0df387c90b1d984e9
+M=11|2|vef|1711876608649|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*17757*0xadcb7f13317e4feeffc8cb03118c9f1f06295e42|0*18166*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|2|vef|1711876608652|../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|0*18504*0xb53cdc6d14b3188e0585c33f8c0a4846d3b06457|0*19097*0xdc2f6eaac86fc4b0df387c90b1d984e9
 R=../../../../../../../../intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd|291
-Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|506baf7110e51efd0a1be004a69b6cdd26527262ddaa47cb266f3a3c4d9b973ac023fb523d6fa946f2052bdcb758e783
-Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593305b0f42200c099dfbf963a8eaad6a426
+Version=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|506baf7110e51efd0a1be004a69b6cdd26527262ddaa47cb266f3a3c4d9b973a0cf88850965e0fdd4884fe5c60be7328
+Version/sim_arch=13.0.376.8320 (Windows64)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593366ef1a292b1eda767bdaeb9e1ffaf956
 
 [~U]
 io_buf_opdrn=11|0*16081|

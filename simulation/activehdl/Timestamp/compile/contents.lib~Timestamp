@@ -19,6 +19,8 @@
 ~A 1 "../src/Fine_Counter.vhd" 22 simple
 ~E 1 "../src/FReg.vhd" 4 FReg
 ~A 1 "../src/FReg.vhd" 18 Behavioral
+~E 1 "../src/fsm_wr.vhd" 6 fsm_wr
+~A 1 "../src/fsm_wr.vhd" 22 fsm
 ~E 1 "../src/Global_P.vhd" 4 Global_P
 ~A 1 "../src/Global_P.vhd" 27 Behavioral
 ~E 1 "../src/mux_2a1.vhd" 5 mux_2a1
@@ -27,6 +29,8 @@
 ~A 1 "../src/PLL.vhd" 12 Behavioral
 ~E 1 "../src/PLL_400MHZ.vhd" 43 PLL_400MHZ
 ~A 1 "../src/PLL_400MHZ.vhd" 53 SYN
+~E 1 "../src/ram_dual.vhd" 15 ram_dual
+~A 1 "../src/ram_dual.vhd" 27 rtl
 ~E 1 "../src/Reg_N.vhd" 4 Reg_N
 ~A 1 "../src/Reg_N.vhd" 16 Behavioral
 ~E 1 "../src/Regs.vhd" 4 Regs
@@ -37,9 +41,11 @@
 ~A 1 "../src/Shift_Left.vhd" 15 Behavioral
 ~E 1 "../src/Synchronizer.vhd" 4 Synchronizer
 ~A 1 "../src/Synchronizer.vhd" 17 Behavioral
-~E 1 "../src/TDC.vhd" 4 TDC
-~A 1 "../src/TDC.vhd" 30 Behavioral
-~E 1 "../src/Timestamp.vhd" 4 Timestamp
-~A 1 "../src/Timestamp.vhd" 27 Behavioral
+~E 1 "../src/TDC.vhd" 5 TDC
+~A 1 "../src/TDC.vhd" 33 Behavioral
+~E 1 "../src/Timestamp.vhd" 5 Timestamp
+~A 1 "../src/Timestamp.vhd" 29 Behavioral
+~E 1 "../src/uart.vhd" 28 uart
+~A 1 "../src/uart.vhd" 49 logic
 ~E 1 "../src/Zero_Count.vhd" 5 Zero_Count
 ~A 1 "../src/Zero_Count.vhd" 17 Behavioral

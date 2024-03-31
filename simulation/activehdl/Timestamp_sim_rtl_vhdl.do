@@ -37,13 +37,13 @@ acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_l
 acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 
 addfile -c -auto C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd
 addfile -c -auto C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd
-addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd
-addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd
@@ -57,4 +57,7 @@ addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd
 

@@ -1,4 +1,4 @@
-Active-HDL 13.0.376.8320 2024-03-30 19:59:27
+Active-HDL 13.0.376.8320 2024-03-31 02:18:27
 
 Elaboration top modules:
 Architecture                  Behavioral(Timestamp)
@@ -12,6 +12,9 @@ TDC                      | Behavioral   | Timestamp |      | 13.0.376.8320 (Wind
 Global_P                 | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 PLL                      | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 Shift_Left               | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+ram_dual                 | rtl          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+uart                     | logic        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+fsm_wr                   | fsm          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 Synchronizer             | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 Fine_Counter             | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 Regs                     | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
@@ -56,6 +59,7 @@ VHDL Package                            | Library   | Info | Compiler Version   
 standard                                | std       |      |                           | <unavailable>
 TEXTIO                                  | std       |      | 13.0.376.8320 (Windows64) |  -2019
 std_logic_1164                          | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
+ram_package                             | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
 std_logic_arith                         | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
 STD_LOGIC_UNSIGNED                      | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
 STD_LOGIC_SIGNED                        | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Timestamp
-Sat Mar 30 18:57:53 2024
+Sun Mar 31 02:08:27 2024
 Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
@@ -13,42 +13,51 @@ Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Inverted Register Statistics
- 10. Parameter Settings for User Entity Instance: Top-level Entity: |Timestamp
- 11. Parameter Settings for User Entity Instance: TDC:sc0
- 12. Parameter Settings for User Entity Instance: TDC:sc0|Fine_Counter:sc1
- 13. Parameter Settings for User Entity Instance: TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0
- 14. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2
- 15. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|Reg_N:sc0
- 16. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1
- 17. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0
- 18. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1
- 19. Parameter Settings for User Entity Instance: TDC:sc0|restador_n:sc3
- 20. Parameter Settings for User Entity Instance: Global_P:sc1
- 21. Parameter Settings for User Entity Instance: Global_P:sc1|Coarse_Counter:sc0
- 22. Parameter Settings for User Entity Instance: Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0
- 23. Parameter Settings for User Entity Instance: Global_P:sc1|Fine_Counter:sc3
- 24. Parameter Settings for User Entity Instance: Global_P:sc1|Fine_Counter:sc3|Carry_Chain_N:sc0
- 25. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4
- 26. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4|Reg_N:sc0
- 27. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4|Zero_Count:sc1
- 28. Parameter Settings for User Entity Instance: PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component
- 29. Parameter Settings for User Entity Instance: Shift_Left:sc3
- 30. Parameter Settings for User Entity Instance: Shift_Left:sc4
- 31. altpll Parameter Settings by Entity Instance
- 32. Port Connectivity Checks: "Global_P:sc1|FFD:sc6"
- 33. Port Connectivity Checks: "Global_P:sc1|FFD:sc5"
- 34. Port Connectivity Checks: "Global_P:sc1|Synchronizer:sc2"
- 35. Port Connectivity Checks: "Global_P:sc1|FFD:sc1"
- 36. Port Connectivity Checks: "Global_P:sc1"
- 37. Port Connectivity Checks: "TDC:sc0|FFD:sc6"
- 38. Port Connectivity Checks: "TDC:sc0|FFD:sc4"
- 39. Port Connectivity Checks: "TDC:sc0|Synchronizer:sc0|FFD:sc0"
- 40. Port Connectivity Checks: "TDC:sc0"
- 41. Post-Synthesis Netlist Statistics for Top Partition
- 42. Elapsed Time Per Partition
- 43. Analysis & Synthesis Messages
+  8. Analysis & Synthesis RAM Summary
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Registers Packed Into Inferred Megafunctions
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated
+ 15. Parameter Settings for User Entity Instance: Top-level Entity: |Timestamp
+ 16. Parameter Settings for User Entity Instance: TDC:sc0
+ 17. Parameter Settings for User Entity Instance: TDC:sc0|Fine_Counter:sc1
+ 18. Parameter Settings for User Entity Instance: TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0
+ 19. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2
+ 20. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|Reg_N:sc0
+ 21. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1
+ 22. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0
+ 23. Parameter Settings for User Entity Instance: TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1
+ 24. Parameter Settings for User Entity Instance: TDC:sc0|restador_n:sc3
+ 25. Parameter Settings for User Entity Instance: Global_P:sc1
+ 26. Parameter Settings for User Entity Instance: Global_P:sc1|Coarse_Counter:sc0
+ 27. Parameter Settings for User Entity Instance: Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0
+ 28. Parameter Settings for User Entity Instance: Global_P:sc1|Fine_Counter:sc3
+ 29. Parameter Settings for User Entity Instance: Global_P:sc1|Fine_Counter:sc3|Carry_Chain_N:sc0
+ 30. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4
+ 31. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4|Reg_N:sc0
+ 32. Parameter Settings for User Entity Instance: Global_P:sc1|FReg:sc4|Zero_Count:sc1
+ 33. Parameter Settings for User Entity Instance: PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component
+ 34. Parameter Settings for User Entity Instance: Shift_Left:sc3
+ 35. Parameter Settings for User Entity Instance: Shift_Left:sc4
+ 36. Parameter Settings for User Entity Instance: uart:sc6
+ 37. Parameter Settings for Inferred Entity Instance: ram_dual:sc5|altsyncram:ram_block_rtl_0
+ 38. altpll Parameter Settings by Entity Instance
+ 39. altsyncram Parameter Settings by Entity Instance
+ 40. Port Connectivity Checks: "uart:sc6"
+ 41. Port Connectivity Checks: "Global_P:sc1|FFD:sc6"
+ 42. Port Connectivity Checks: "Global_P:sc1|FFD:sc5"
+ 43. Port Connectivity Checks: "Global_P:sc1|Synchronizer:sc2"
+ 44. Port Connectivity Checks: "Global_P:sc1|FFD:sc1"
+ 45. Port Connectivity Checks: "Global_P:sc1"
+ 46. Port Connectivity Checks: "TDC:sc0|FFD:sc6"
+ 47. Port Connectivity Checks: "TDC:sc0|FFD:sc4"
+ 48. Port Connectivity Checks: "TDC:sc0|Synchronizer:sc0|FFD:sc0"
+ 49. Port Connectivity Checks: "TDC:sc0"
+ 50. Post-Synthesis Netlist Statistics for Top Partition
+ 51. Elapsed Time Per Partition
+ 52. Analysis & Synthesis Messages
 
 
 
@@ -75,18 +84,18 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Mar 30 18:57:53 2024          ;
+; Analysis & Synthesis Status        ; Successful - Sun Mar 31 02:08:27 2024          ;
 ; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
 ; Revision Name                      ; Timestamp                                      ;
 ; Top-level Entity Name              ; Timestamp                                      ;
 ; Family                             ; Cyclone IV E                                   ;
-; Total logic elements               ; 988                                            ;
-;     Total combinational functions  ; 715                                            ;
-;     Dedicated logic registers      ; 542                                            ;
-; Total registers                    ; 542                                            ;
-; Total pins                         ; 23                                             ;
+; Total logic elements               ; 1,307                                          ;
+;     Total combinational functions  ; 1,029                                          ;
+;     Dedicated logic registers      ; 620                                            ;
+; Total registers                    ; 620                                            ;
+; Total pins                         ; 11                                             ;
 ; Total virtual pins                 ; 0                                              ;
-; Total memory bits                  ; 0                                              ;
+; Total memory bits                  ; 1,835,008                                      ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
 ; Total PLLs                         ; 1                                              ;
 +------------------------------------+------------------------------------------------+
@@ -195,38 +204,52 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                         ;
-+-----------------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                      ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                ; Library ;
-+-----------------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd                    ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd          ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd                   ;         ;
-; ../PLL_400MHZ/PLL_400MHZ.vhd                                          ; yes             ; User Wizard-Generated File   ; C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd                               ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd              ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd              ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd      ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd               ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd                     ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd   ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd            ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd              ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd                    ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd       ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd                ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Reg_N.vhd          ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Reg_N.vhd                   ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd                     ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1.vhd        ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1.vhd                 ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd                    ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd   ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd            ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd                     ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd      ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd               ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd          ;         ;
-; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd  ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd           ;         ;
-; altpll.tdf                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altpll.tdf        ;         ;
-; aglobal231.inc                                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/aglobal231.inc    ;         ;
-; stratix_pll.inc                                                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
-; stratixii_pll.inc                                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
-; cycloneii_pll.inc                                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
-; db/pll_400mhz_altpll.v                                                ; yes             ; Auto-Generated Megafunction  ; C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v                        ;         ;
-+-----------------------------------------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                             ;
++-----------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                      ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                    ; Library ;
++-----------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd         ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd                      ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd                        ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd       ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd                    ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd                        ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd          ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd                       ;         ;
+; ../PLL_400MHZ/PLL_400MHZ.vhd                                          ; yes             ; User Wizard-Generated File   ; C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd                                   ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/restador_n.vhd                  ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd                  ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd      ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd                   ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd                         ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd   ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd                ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd     ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Shift_Left.vhd                  ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd                        ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd       ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd                    ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Reg_N.vhd          ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Reg_N.vhd                       ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd                         ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1.vhd        ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1.vhd                     ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd           ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd                        ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd   ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd                ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd            ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FFD.vhd                         ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd      ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd                   ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd              ;         ;
+; ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd  ; yes             ; User VHDL File               ; C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd               ;         ;
+; altpll.tdf                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altpll.tdf            ;         ;
+; aglobal231.inc                                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/aglobal231.inc        ;         ;
+; stratix_pll.inc                                                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/stratix_pll.inc       ;         ;
+; stratixii_pll.inc                                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/stratixii_pll.inc     ;         ;
+; cycloneii_pll.inc                                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/cycloneii_pll.inc     ;         ;
+; db/pll_400mhz_altpll.v                                                ; yes             ; Auto-Generated Megafunction  ; C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v                            ;         ;
+; altsyncram.tdf                                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc                                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                                                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; a_rdenreg.inc                                                         ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                                                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_6ch1.tdf                                                ; yes             ; Auto-Generated Megafunction  ; C:/Quartus_Proyects/Timestamp/db/altsyncram_6ch1.tdf                            ;         ;
+; db/decode_bua.tdf                                                     ; yes             ; Auto-Generated Megafunction  ; C:/Quartus_Proyects/Timestamp/db/decode_bua.tdf                                 ;         ;
+; db/mux_8qb.tdf                                                        ; yes             ; Auto-Generated Megafunction  ; C:/Quartus_Proyects/Timestamp/db/mux_8qb.tdf                                    ;         ;
++-----------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -234,23 +257,24 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 988       ;
+; Estimated Total logic elements              ; 1,307     ;
 ;                                             ;           ;
-; Total combinational functions               ; 715       ;
+; Total combinational functions               ; 1029      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 305       ;
-;     -- 3 input functions                    ; 358       ;
-;     -- <=2 input functions                  ; 52        ;
+;     -- 4 input functions                    ; 524       ;
+;     -- 3 input functions                    ; 387       ;
+;     -- <=2 input functions                  ; 118       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 445       ;
-;     -- arithmetic mode                      ; 270       ;
+;     -- normal mode                          ; 715       ;
+;     -- arithmetic mode                      ; 314       ;
 ;                                             ;           ;
-; Total registers                             ; 542       ;
-;     -- Dedicated logic registers            ; 542       ;
+; Total registers                             ; 620       ;
+;     -- Dedicated logic registers            ; 620       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 23        ;
+; I/O pins                                    ; 11        ;
+; Total memory bits                           ; 1835008   ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
@@ -258,60 +282,86 @@ https://fpgasoftware.intel.com/eula.
 ;     -- PLLs                                 ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; RST~input ;
-; Maximum fan-out                             ; 545       ;
-; Total fan-out                               ; 4051      ;
-; Average fan-out                             ; 3.11      ;
+; Maximum fan-out                             ; 601       ;
+; Total fan-out                               ; 11925     ;
+; Average fan-out                             ; 6.29      ;
 +---------------------------------------------+-----------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                       ;
-+------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+-------------------+--------------+
-; Compilation Hierarchy Node                     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                        ; Entity Name       ; Library Name ;
-+------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+-------------------+--------------+
-; |Timestamp                                     ; 715 (0)             ; 542 (0)                   ; 0           ; 0            ; 0       ; 0         ; 23   ; 0            ; |Timestamp                                                                                 ; Timestamp         ; work         ;
-;    |Global_P:sc1|                              ; 358 (2)             ; 145 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1                                                                    ; Global_P          ; work         ;
-;       |AFFD:sc7|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc7                                                           ; AFFD              ; work         ;
-;       |AFFD:sc8|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc8                                                           ; AFFD              ; work         ;
-;       |Coarse_Counter:sc0|                     ; 7 (0)               ; 7 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Coarse_Counter:sc0                                                 ; Coarse_Counter    ; work         ;
-;          |Counter_N:sc0|                       ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0                                   ; Counter_N         ; work         ;
-;       |FFD:sc1|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc1                                                            ; FFD               ; work         ;
-;       |FFD:sc5|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc5                                                            ; FFD               ; work         ;
-;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc6                                                            ; FFD               ; work         ;
-;       |FReg:sc4|                               ; 213 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4                                                           ; FReg              ; work         ;
-;          |Reg_N:sc0|                           ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Reg_N:sc0                                                 ; Reg_N             ; work         ;
-;          |Zero_Count:sc1|                      ; 213 (213)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Zero_Count:sc1                                            ; Zero_Count        ; work         ;
-;       |Fine_Counter:sc3|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3                                                   ; Fine_Counter      ; work         ;
-;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3|Carry_Chain_N:sc0                                 ; Carry_Chain_N     ; work         ;
-;       |Synchronizer:sc2|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2                                                   ; Synchronizer      ; work         ;
-;          |FFD:sc0|                             ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD:sc0                                           ; FFD               ; work         ;
-;          |FFD_N:sc1|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD_N:sc1                                         ; FFD_N             ; work         ;
-;          |FFD_N:sc2|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD_N:sc2                                         ; FFD_N             ; work         ;
-;    |PLL:sc2|                                   ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2                                                                         ; PLL               ; work         ;
-;       |PLL_400MHZ:sc0|                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0                                                          ; PLL_400MHZ        ; work         ;
-;          |altpll:altpll_component|             ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component                                  ; altpll            ; work         ;
-;             |PLL_400MHZ_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component|PLL_400MHZ_altpll:auto_generated ; PLL_400MHZ_altpll ; work         ;
-;       |mux_2a1:sc1|                            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|mux_2a1:sc1                                                             ; mux_2a1           ; work         ;
-;    |Shift_Left:sc3|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc3                                                                  ; Shift_Left        ; work         ;
-;    |Shift_Left:sc4|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc4                                                                  ; Shift_Left        ; work         ;
-;    |TDC:sc0|                                   ; 356 (1)             ; 141 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0                                                                         ; TDC               ; work         ;
-;       |AFFD:sc5|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|AFFD:sc5                                                                ; AFFD              ; work         ;
-;       |FFD:sc4|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc4                                                                 ; FFD               ; work         ;
-;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc6                                                                 ; FFD               ; work         ;
-;       |Fine_Counter:sc1|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1                                                        ; Fine_Counter      ; work         ;
-;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0                                      ; Carry_Chain_N     ; work         ;
-;       |Regs:sc2|                               ; 214 (0)             ; 134 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2                                                                ; Regs              ; work         ;
-;          |FReg:sc1|                            ; 214 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1                                                       ; FReg              ; work         ;
-;             |Reg_N:sc0|                        ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0                                             ; Reg_N             ; work         ;
-;             |Zero_Count:sc1|                   ; 214 (214)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1                                        ; Zero_Count        ; work         ;
-;          |Reg_N:sc0|                           ; 0 (0)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|Reg_N:sc0                                                      ; Reg_N             ; work         ;
-;       |Synchronizer:sc0|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0                                                        ; Synchronizer      ; work         ;
-;          |FFD:sc0|                             ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD:sc0                                                ; FFD               ; work         ;
-;          |FFD_N:sc1|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD_N:sc1                                              ; FFD_N             ; work         ;
-;          |FFD_N:sc2|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD_N:sc2                                              ; FFD_N             ; work         ;
-;       |restador_n:sc3|                         ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|restador_n:sc3                                                          ; restador_n        ; work         ;
-+------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+-------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                 ;
++------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node                     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                  ; Entity Name       ; Library Name ;
++------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; |Timestamp                                     ; 1029 (0)            ; 620 (0)                   ; 1835008     ; 0            ; 0       ; 0         ; 11   ; 0            ; |Timestamp                                                                                           ; Timestamp         ; work         ;
+;    |Global_P:sc1|                              ; 362 (2)             ; 145 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1                                                                              ; Global_P          ; work         ;
+;       |AFFD:sc7|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc7                                                                     ; AFFD              ; work         ;
+;       |AFFD:sc8|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|AFFD:sc8                                                                     ; AFFD              ; work         ;
+;       |Coarse_Counter:sc0|                     ; 7 (0)               ; 7 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Coarse_Counter:sc0                                                           ; Coarse_Counter    ; work         ;
+;          |Counter_N:sc0|                       ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0                                             ; Counter_N         ; work         ;
+;       |FFD:sc1|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc1                                                                      ; FFD               ; work         ;
+;       |FFD:sc5|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc5                                                                      ; FFD               ; work         ;
+;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FFD:sc6                                                                      ; FFD               ; work         ;
+;       |FReg:sc4|                               ; 217 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4                                                                     ; FReg              ; work         ;
+;          |Reg_N:sc0|                           ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Reg_N:sc0                                                           ; Reg_N             ; work         ;
+;          |Zero_Count:sc1|                      ; 217 (217)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|FReg:sc4|Zero_Count:sc1                                                      ; Zero_Count        ; work         ;
+;       |Fine_Counter:sc3|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3                                                             ; Fine_Counter      ; work         ;
+;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Fine_Counter:sc3|Carry_Chain_N:sc0                                           ; Carry_Chain_N     ; work         ;
+;       |Synchronizer:sc2|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2                                                             ; Synchronizer      ; work         ;
+;          |FFD:sc0|                             ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD:sc0                                                     ; FFD               ; work         ;
+;          |FFD_N:sc1|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD_N:sc1                                                   ; FFD_N             ; work         ;
+;          |FFD_N:sc2|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Global_P:sc1|Synchronizer:sc2|FFD_N:sc2                                                   ; FFD_N             ; work         ;
+;    |PLL:sc2|                                   ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2                                                                                   ; PLL               ; work         ;
+;       |PLL_400MHZ:sc0|                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0                                                                    ; PLL_400MHZ        ; work         ;
+;          |altpll:altpll_component|             ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component                                            ; altpll            ; work         ;
+;             |PLL_400MHZ_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component|PLL_400MHZ_altpll:auto_generated           ; PLL_400MHZ_altpll ; work         ;
+;       |mux_2a1:sc1|                            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|PLL:sc2|mux_2a1:sc1                                                                       ; mux_2a1           ; work         ;
+;    |Shift_Left:sc3|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc3                                                                            ; Shift_Left        ; work         ;
+;    |Shift_Left:sc4|                            ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|Shift_Left:sc4                                                                            ; Shift_Left        ; work         ;
+;    |TDC:sc0|                                   ; 361 (1)             ; 141 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0                                                                                   ; TDC               ; work         ;
+;       |AFFD:sc5|                               ; 3 (3)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|AFFD:sc5                                                                          ; AFFD              ; work         ;
+;       |FFD:sc4|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc4                                                                           ; FFD               ; work         ;
+;       |FFD:sc6|                                ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|FFD:sc6                                                                           ; FFD               ; work         ;
+;       |Fine_Counter:sc1|                       ; 130 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1                                                                  ; Fine_Counter      ; work         ;
+;          |Carry_Chain_N:sc0|                   ; 130 (130)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0                                                ; Carry_Chain_N     ; work         ;
+;       |Regs:sc2|                               ; 219 (0)             ; 134 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2                                                                          ; Regs              ; work         ;
+;          |FReg:sc1|                            ; 219 (0)             ; 128 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1                                                                 ; FReg              ; work         ;
+;             |Reg_N:sc0|                        ; 0 (0)               ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0                                                       ; Reg_N             ; work         ;
+;             |Zero_Count:sc1|                   ; 219 (219)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|FReg:sc1|Zero_Count:sc1                                                  ; Zero_Count        ; work         ;
+;          |Reg_N:sc0|                           ; 0 (0)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Regs:sc2|Reg_N:sc0                                                                ; Reg_N             ; work         ;
+;       |Synchronizer:sc0|                       ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0                                                                  ; Synchronizer      ; work         ;
+;          |FFD:sc0|                             ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD:sc0                                                          ; FFD               ; work         ;
+;          |FFD_N:sc1|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD_N:sc1                                                        ; FFD_N             ; work         ;
+;          |FFD_N:sc2|                           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|Synchronizer:sc0|FFD_N:sc2                                                        ; FFD_N             ; work         ;
+;       |restador_n:sc3|                         ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|TDC:sc0|restador_n:sc3                                                                    ; restador_n        ; work         ;
+;    |fsm_wr:sc7|                                ; 60 (60)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|fsm_wr:sc7                                                                                ; fsm_wr            ; work         ;
+;    |ram_dual:sc5|                              ; 194 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5                                                                              ; ram_dual          ; work         ;
+;       |altsyncram:ram_block_rtl_0|             ; 194 (0)             ; 4 (0)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0                                                   ; altsyncram        ; work         ;
+;          |altsyncram_6ch1:auto_generated|      ; 194 (0)             ; 4 (4)                     ; 1835008     ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated                    ; altsyncram_6ch1   ; work         ;
+;             |decode_bua:decode2|               ; 18 (18)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|decode_bua:decode2 ; decode_bua        ; work         ;
+;             |mux_8qb:mux3|                     ; 176 (176)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|mux_8qb:mux3       ; mux_8qb           ; work         ;
+;    |uart:sc6|                                  ; 51 (51)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Timestamp|uart:sc6                                                                                  ; uart              ; work         ;
++------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                         ;
++-----------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+; Name                                                                              ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size    ; MIF  ;
++-----------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+; ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 131072       ; 14           ; 131072       ; 14           ; 1835008 ; None ;
++-----------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; ram_dual:sc5|q[6,7]                   ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2 ;                                        ;
++---------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -319,26 +369,78 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 542   ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 620   ;
+; Number of registers using Synchronous Clear  ; 43    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 542   ;
+; Number of registers using Asynchronous Clear ; 597   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 58    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------+
-; Inverted Register Statistics                     ;
-+----------------------------------------+---------+
-; Inverted Register                      ; Fan out ;
-+----------------------------------------+---------+
-; Global_P:sc1|AFFD:sc8|qp[0]            ; 4       ;
-; TDC:sc0|AFFD:sc5|qp[0]                 ; 3       ;
-; Global_P:sc1|AFFD:sc7|qp[0]            ; 3       ;
-; Total number of inverted registers = 3 ;         ;
-+----------------------------------------+---------+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; uart:sc6|tx                             ; 1       ;
+; Global_P:sc1|AFFD:sc8|qp[0]             ; 4       ;
+; TDC:sc0|AFFD:sc5|qp[0]                  ; 5       ;
+; uart:sc6|tx_buffer[0]                   ; 1       ;
+; uart:sc6|tx_buffer[1]                   ; 1       ;
+; uart:sc6|tx_buffer[2]                   ; 1       ;
+; uart:sc6|tx_busy                        ; 3       ;
+; uart:sc6|tx_buffer[3]                   ; 1       ;
+; uart:sc6|tx_buffer[4]                   ; 1       ;
+; uart:sc6|tx_buffer[5]                   ; 1       ;
+; uart:sc6|tx_buffer[6]                   ; 1       ;
+; uart:sc6|tx_buffer[7]                   ; 1       ;
+; uart:sc6|tx_buffer[8]                   ; 1       ;
+; uart:sc6|tx_buffer[9]                   ; 1       ;
+; uart:sc6|tx_buffer[10]                  ; 1       ;
+; uart:sc6|tx_buffer[11]                  ; 1       ;
+; uart:sc6|tx_buffer[12]                  ; 1       ;
+; uart:sc6|tx_buffer[13]                  ; 1       ;
+; Global_P:sc1|AFFD:sc7|qp[0]             ; 3       ;
+; uart:sc6|tx_buffer[14]                  ; 1       ;
+; uart:sc6|tx_buffer[15]                  ; 1       ;
+; uart:sc6|tx_buffer[16]                  ; 1       ;
+; uart:sc6|tx_buffer[17]                  ; 1       ;
+; uart:sc6|tx_buffer[18]                  ; 1       ;
+; Total number of inverted registers = 24 ;         ;
++-----------------------------------------+---------+
+
+
++------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                     ;
++----------------------------+------------------------------+------+
+; Register Name              ; Megafunction                 ; Type ;
++----------------------------+------------------------------+------+
+; ram_dual:sc5|q[0..5,8..15] ; ram_dual:sc5|ram_block_rtl_0 ; RAM  ;
++----------------------------+------------------------------+------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Timestamp|uart:sc6|tx_count[0]   ;
+; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q2p_reg[8]  ;
+; 8:1                ; 17 bits   ; 85 LEs        ; 17 LEs               ; 68 LEs                 ; Yes        ; |Timestamp|fsm_wr:sc7|Q1p_reg[11] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Timestamp|uart:sc6|tx_buffer[1]  ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |Timestamp|uart:sc6|tx_buffer[2]  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Source assignments for ram_dual:sc5|altsyncram:ram_block_rtl_0|altsyncram_6ch1:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------+
+; Assignment                      ; Value              ; From ; To                              ;
++---------------------------------+--------------------+------+---------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                               ;
++---------------------------------+--------------------+------+---------------------------------+
 
 
 +---------------------------------------------------------------------------+
@@ -349,6 +451,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; N              ; 128   ; Signed Integer                                   ;
 ; M              ; 8     ; Signed Integer                                   ;
 ; O              ; 6     ; Signed Integer                                   ;
+; P              ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -361,6 +464,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; n              ; 128   ; Signed Integer              ;
 ; m              ; 8     ; Signed Integer              ;
 ; o              ; 6     ; Signed Integer              ;
+; p              ; 16    ; Signed Integer              ;
 +----------------+-------+-----------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -927,6 +1031,82 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: uart:sc6 ;
++----------------+----------+---------------------------+
+; Parameter Name ; Value    ; Type                      ;
++----------------+----------+---------------------------+
+; clk_freq       ; 50000000 ; Signed Integer            ;
+; baud_rate      ; 115200   ; Signed Integer            ;
+; os_rate        ; 16       ; Signed Integer            ;
+; d_width        ; 16       ; Signed Integer            ;
+; parity         ; 1        ; Signed Integer            ;
+; parity_eo      ; '0'      ; Enumerated                ;
++----------------+----------+---------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: ram_dual:sc5|altsyncram:ram_block_rtl_0 ;
++------------------------------------+----------------------+------------------------------+
+; Parameter Name                     ; Value                ; Type                         ;
++------------------------------------+----------------------+------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                      ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                   ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                 ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                 ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE               ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                      ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                      ;
+; WIDTH_A                            ; 14                   ; Untyped                      ;
+; WIDTHAD_A                          ; 17                   ; Untyped                      ;
+; NUMWORDS_A                         ; 131072               ; Untyped                      ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                      ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                      ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                      ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                      ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                      ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                      ;
+; WIDTH_B                            ; 14                   ; Untyped                      ;
+; WIDTHAD_B                          ; 17                   ; Untyped                      ;
+; NUMWORDS_B                         ; 131072               ; Untyped                      ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                      ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                      ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                      ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                      ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                      ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                      ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                      ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                      ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                      ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                      ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                      ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                      ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                      ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                      ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                      ;
+; BYTE_SIZE                          ; 8                    ; Untyped                      ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA             ; Untyped                      ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                      ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                      ;
+; INIT_FILE                          ; UNUSED               ; Untyped                      ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                      ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                      ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                      ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                      ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                      ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                      ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                      ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                      ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                      ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                      ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                      ;
+; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                      ;
+; CBXI_PARAMETER                     ; altsyncram_6ch1      ; Untyped                      ;
++------------------------------------+----------------------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------+
 ; altpll Parameter Settings by Entity Instance                                   ;
 +-------------------------------+------------------------------------------------+
@@ -942,6 +1122,37 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- VCO_MULTIPLY_BY        ; 0                                              ;
 ;     -- VCO_DIVIDE_BY          ; 0                                              ;
 +-------------------------------+------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                    ;
++-------------------------------------------+-----------------------------------------+
+; Name                                      ; Value                                   ;
++-------------------------------------------+-----------------------------------------+
+; Number of entity instances                ; 1                                       ;
+; Entity Instance                           ; ram_dual:sc5|altsyncram:ram_block_rtl_0 ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                               ;
+;     -- WIDTH_A                            ; 14                                      ;
+;     -- NUMWORDS_A                         ; 131072                                  ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                            ;
+;     -- WIDTH_B                            ; 14                                      ;
+;     -- NUMWORDS_B                         ; 131072                                  ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                  ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                            ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                    ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                ;
++-------------------------------------------+-----------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "uart:sc6"                                                                               ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; rx_busy  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; rx_error ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; rx_data  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------+
@@ -1032,23 +1243,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 23                          ;
-; cycloneiii_ff         ; 542                         ;
-;     CLR               ; 542                         ;
-; cycloneiii_lcell_comb ; 715                         ;
-;     arith             ; 270                         ;
-;         2 data inputs ; 6                           ;
-;         3 data inputs ; 264                         ;
-;     normal            ; 445                         ;
+; boundary_port         ; 11                          ;
+; cycloneiii_ff         ; 620                         ;
+;     CLR               ; 549                         ;
+;     CLR SCLR          ; 9                           ;
+;     ENA               ; 19                          ;
+;     ENA CLR           ; 5                           ;
+;     ENA CLR SCLR      ; 34                          ;
+;     plain             ; 4                           ;
+; cycloneiii_lcell_comb ; 1030                        ;
+;     arith             ; 314                         ;
+;         2 data inputs ; 49                          ;
+;         3 data inputs ; 265                         ;
+;     normal            ; 716                         ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 2                           ;
-;         2 data inputs ; 42                          ;
-;         3 data inputs ; 94                          ;
-;         4 data inputs ; 305                         ;
+;         1 data inputs ; 7                           ;
+;         2 data inputs ; 61                          ;
+;         3 data inputs ; 122                         ;
+;         4 data inputs ; 524                         ;
 ; cycloneiii_pll        ; 1                           ;
+; cycloneiii_ram_block  ; 224                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 25.70                       ;
-; Average LUT depth     ; 12.97                       ;
+; Max LUT depth         ; 24.70                       ;
+; Average LUT depth     ; 10.38                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1057,7 +1274,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:33     ;
+; Top            ; 00:01:12     ;
 +----------------+--------------+
 
 
@@ -1067,10 +1284,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
-    Info: Processing started: Sat Mar 30 18:56:35 2024
+    Info: Processing started: Sun Mar 31 02:06:02 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Timestamp -c Timestamp
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/fsm_wr.vhd
+    Info (12022): Found design unit 1: fsm_wr-fsm File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd Line: 22
+    Info (12023): Found entity 1: fsm_wr File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/uart.vhd
+    Info (12022): Found design unit 1: uart-logic File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd Line: 49
+    Info (12023): Found entity 1: uart File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd Line: 28
+Info (12021): Found 3 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/ram_dual.vhd
+    Info (12022): Found design unit 1: ram_package File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd Line: 3
+    Info (12022): Found design unit 2: ram_dual-rtl File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd Line: 27
+    Info (12023): Found entity 1: ram_dual File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd Line: 15
 Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/affd.vhd
     Info (12022): Found design unit 1: AFFD-fsm File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd Line: 14
     Info (12023): Found entity 1: AFFD File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd Line: 4
@@ -1087,11 +1314,11 @@ Info (12021): Found 2 design units, including 1 entities, in source file /my_des
     Info (12022): Found design unit 1: Zero_Count-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd Line: 17
     Info (12023): Found entity 1: Zero_Count File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/timestamp.vhd
-    Info (12022): Found design unit 1: Timestamp-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 27
-    Info (12023): Found entity 1: Timestamp File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 4
+    Info (12022): Found design unit 1: Timestamp-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 29
+    Info (12023): Found entity 1: Timestamp File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/tdc.vhd
-    Info (12022): Found design unit 1: TDC-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 30
-    Info (12023): Found entity 1: TDC File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 4
+    Info (12022): Found design unit 1: TDC-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 33
+    Info (12023): Found entity 1: TDC File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/timestamp/timestamp/timestamp/src/synchronizer.vhd
     Info (12022): Found design unit 1: Synchronizer-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd Line: 17
     Info (12023): Found entity 1: Synchronizer File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd Line: 4
@@ -1135,17 +1362,17 @@ Info (12021): Found 2 design units, including 1 entities, in source file /my_des
     Info (12022): Found design unit 1: Carry_Chain_N-Behavioral File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd Line: 19
     Info (12023): Found entity 1: Carry_Chain_N File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd Line: 6
 Info (12127): Elaborating entity "Timestamp" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(97): object "TStop" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 97
-Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(97): object "Start" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 97
-Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(97): object "Stop" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 97
-Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(100): object "RT1" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 100
-Info (12128): Elaborating entity "TDC" for hierarchy "TDC:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 104
-Info (12128): Elaborating entity "Synchronizer" for hierarchy "TDC:sc0|Synchronizer:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 123
+Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(145): object "TStop" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 145
+Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(145): object "Start" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 145
+Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(145): object "Stop" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 145
+Warning (10036): Verilog HDL or VHDL warning at Timestamp.vhd(148): object "RT1" assigned a value but never read File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 148
+Info (12128): Elaborating entity "TDC" for hierarchy "TDC:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 162
+Info (12128): Elaborating entity "Synchronizer" for hierarchy "TDC:sc0|Synchronizer:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 141
 Info (12128): Elaborating entity "FFD" for hierarchy "TDC:sc0|Synchronizer:sc0|FFD:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd Line: 40
 Info (12128): Elaborating entity "FFD_N" for hierarchy "TDC:sc0|Synchronizer:sc0|FFD_N:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Synchronizer.vhd Line: 41
-Info (12128): Elaborating entity "Fine_Counter" for hierarchy "TDC:sc0|Fine_Counter:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 124
+Info (12128): Elaborating entity "Fine_Counter" for hierarchy "TDC:sc0|Fine_Counter:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 142
 Info (12128): Elaborating entity "Carry_Chain_N" for hierarchy "TDC:sc0|Fine_Counter:sc1|Carry_Chain_N:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Fine_Counter.vhd Line: 39
-Info (12128): Elaborating entity "Regs" for hierarchy "TDC:sc0|Regs:sc2" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 125
+Info (12128): Elaborating entity "Regs" for hierarchy "TDC:sc0|Regs:sc2" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 143
 Info (12128): Elaborating entity "Reg_N" for hierarchy "TDC:sc0|Regs:sc2|Reg_N:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd Line: 53
 Info (12128): Elaborating entity "FReg" for hierarchy "TDC:sc0|Regs:sc2|FReg:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Regs.vhd Line: 54
 Info (12128): Elaborating entity "Reg_N" for hierarchy "TDC:sc0|Regs:sc2|FReg:sc1|Reg_N:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/FReg.vhd Line: 49
@@ -1159,12 +1386,12 @@ Info (10041): Inferred latch for "count[4]" at Zero_Count.vhd(23) File: C:/My_De
 Info (10041): Inferred latch for "count[5]" at Zero_Count.vhd(23) File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd Line: 23
 Info (10041): Inferred latch for "count[6]" at Zero_Count.vhd(23) File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd Line: 23
 Info (10041): Inferred latch for "count[7]" at Zero_Count.vhd(23) File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Zero_Count.vhd Line: 23
-Info (12128): Elaborating entity "restador_n" for hierarchy "TDC:sc0|restador_n:sc3" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 126
-Info (12128): Elaborating entity "AFFD" for hierarchy "TDC:sc0|AFFD:sc5" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 128
-Info (12128): Elaborating entity "Global_P" for hierarchy "Global_P:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 105
+Info (12128): Elaborating entity "restador_n" for hierarchy "TDC:sc0|restador_n:sc3" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 144
+Info (12128): Elaborating entity "AFFD" for hierarchy "TDC:sc0|AFFD:sc5" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/TDC.vhd Line: 146
+Info (12128): Elaborating entity "Global_P" for hierarchy "Global_P:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 163
 Info (12128): Elaborating entity "Coarse_Counter" for hierarchy "Global_P:sc1|Coarse_Counter:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Global_P.vhd Line: 118
 Info (12128): Elaborating entity "Counter_N" for hierarchy "Global_P:sc1|Coarse_Counter:sc0|Counter_N:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd Line: 37
-Info (12128): Elaborating entity "PLL" for hierarchy "PLL:sc2" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 106
+Info (12128): Elaborating entity "PLL" for hierarchy "PLL:sc2" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 164
 Info (12128): Elaborating entity "PLL_400MHZ" for hierarchy "PLL:sc2|PLL_400MHZ:sc0" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd Line: 36
 Info (12128): Elaborating entity "altpll" for hierarchy "PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component" File: C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd Line: 139
 Info (12130): Elaborated megafunction instantiation "PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component" File: C:/Quartus_Proyects/PLL_400MHZ/PLL_400MHZ.vhd Line: 139
@@ -1228,8 +1455,52 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/pll_
     Info (12023): Found entity 1: PLL_400MHZ_altpll File: C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v Line: 30
 Info (12128): Elaborating entity "PLL_400MHZ_altpll" for hierarchy "PLL:sc2|PLL_400MHZ:sc0|altpll:altpll_component|PLL_400MHZ_altpll:auto_generated" File: c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altpll.tdf Line: 898
 Info (12128): Elaborating entity "mux_2a1" for hierarchy "PLL:sc2|mux_2a1:sc1" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/PLL.vhd Line: 37
-Info (12128): Elaborating entity "Shift_Left" for hierarchy "Shift_Left:sc3" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 107
-Info (13000): Registers with preset signals will power-up high File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd Line: 58
+Info (12128): Elaborating entity "Shift_Left" for hierarchy "Shift_Left:sc3" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 165
+Info (12128): Elaborating entity "ram_dual" for hierarchy "ram_dual:sc5" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 167
+Info (12128): Elaborating entity "uart" for hierarchy "uart:sc6" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 168
+Warning (10492): VHDL Process Statement warning at uart.vhd(106): signal "os_pulse" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd Line: 106
+Info (12128): Elaborating entity "fsm_wr" for hierarchy "fsm_wr:sc7" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 169
+Info (19000): Inferred 1 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "ram_dual:sc5|ram_block_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 14
+        Info (286033): Parameter WIDTHAD_A set to 17
+        Info (286033): Parameter NUMWORDS_A set to 131072
+        Info (286033): Parameter WIDTH_B set to 14
+        Info (286033): Parameter WIDTHAD_B set to 17
+        Info (286033): Parameter NUMWORDS_B set to 131072
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter READ_DURING_WRITE_MODE_MIXED_PORTS set to OLD_DATA
+Info (12130): Elaborated megafunction instantiation "ram_dual:sc5|altsyncram:ram_block_rtl_0"
+Info (12133): Instantiated megafunction "ram_dual:sc5|altsyncram:ram_block_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "14"
+    Info (12134): Parameter "WIDTHAD_A" = "17"
+    Info (12134): Parameter "NUMWORDS_A" = "131072"
+    Info (12134): Parameter "WIDTH_B" = "14"
+    Info (12134): Parameter "WIDTHAD_B" = "17"
+    Info (12134): Parameter "NUMWORDS_B" = "131072"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_6ch1.tdf
+    Info (12023): Found entity 1: altsyncram_6ch1 File: C:/Quartus_Proyects/Timestamp/db/altsyncram_6ch1.tdf Line: 32
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_bua.tdf
+    Info (12023): Found entity 1: decode_bua File: C:/Quartus_Proyects/Timestamp/db/decode_bua.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_8qb.tdf
+    Info (12023): Found entity 1: mux_8qb File: C:/Quartus_Proyects/Timestamp/db/mux_8qb.tdf Line: 23
+Info (13000): Registers with preset signals will power-up high File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd Line: 46
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Critical Warning (18061): Ignored Power-Up Level option on the following registers
@@ -1238,15 +1509,18 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
     Critical Warning (18010): Register Global_P:sc1|AFFD:sc7|qp[0] will power up to High File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd Line: 58
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1012 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 7 input pins
-    Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 988 logic cells
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "rx" File: C:/My_Designs/Timestamp/Timestamp/Timestamp/src/Timestamp.vhd Line: 22
+Info (21057): Implemented 1544 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
+    Info (21059): Implemented 3 output pins
+    Info (21061): Implemented 1308 logic cells
+    Info (21064): Implemented 224 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Sat Mar 30 18:57:53 2024
-    Info: Elapsed time: 00:01:18
-    Info: Total CPU time (on all processors): 00:02:22
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Sun Mar 31 02:08:27 2024
+    Info: Elapsed time: 00:02:25
+    Info: Total CPU time (on all processors): 00:03:38
 
 

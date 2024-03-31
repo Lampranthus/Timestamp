@@ -85,6 +85,11 @@ set_location_assignment PIN_H21 -to RR[4]
 set_location_assignment PIN_G20 -to RR[5]
 set_location_assignment PIN_G22 -to RR[6]
 set_location_assignment PIN_G21 -to RR[7]
+set_location_assignment PIN_F17 -to FCout2
+set_location_assignment PIN_H15 -to FCout1
+set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/fsm_wr.vhd
+set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd
+set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/FFD_N.vhd
 set_global_assignment -name VHDL_FILE ../PLL_400MHZ/PLL_400MHZ.vhd
@@ -106,6 +111,4 @@ set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Times
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd
-set_location_assignment PIN_F17 -to FCout2
-set_location_assignment PIN_H15 -to FCout1
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

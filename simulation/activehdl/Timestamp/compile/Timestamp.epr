@@ -1,10 +1,10 @@
+"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/uart.vhd" VHDL Timestamp 1 0 0 -02
+"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/ram_dual.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/AFFD.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/FFD_N.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/PLL_400MHZ.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/restador_n.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Zero_Count.vhd" VHDL Timestamp 1 0 0 -02
-"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd" VHDL Timestamp 1 0 0 -02
-"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/TDC.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Synchronizer.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Shift_Left.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Regs.vhd" VHDL Timestamp 1 0 0 -02
@@ -18,4 +18,7 @@
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Counter_N.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Coarse_Counter.vhd" VHDL Timestamp 1 0 0 -02
 "C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Carry_Chain_N.vhd" VHDL Timestamp 1 0 0 -02
+"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/fsm_wr.vhd" VHDL Timestamp 1 0 0 -02
+"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd" VHDL Timestamp 1 0 0 -02
+"C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/TDC.vhd" VHDL Timestamp 1 0 0 -02
 . . 0 0 0

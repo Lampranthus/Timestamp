@@ -4,3 +4,11 @@ Version=13.0
 Timestamp=Timestamp.adf
 [Settings]
 Active=Timestamp
+[Expand]
+timestamp=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

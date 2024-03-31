@@ -3,6 +3,7 @@ C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/ram_dual.vhd=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_p.vhd=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_b.vhd=S
 C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/unsigned_p.vhd=S
@@ -27,6 +28,8 @@ C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/Synchronizer.vh
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/Coarse_Counter.vhd=S
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/restador_n.vhd=S
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/Regs.vhd=S
+C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/fsm_wr.vhd=S
+C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/uart.vhd=S
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/Shift_Left.vhd=S
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/PLL.vhd=S
 C:\Quartus_Proyects\Timestamp\simulation\activehdl\Timestamp/src/Global_P.vhd=S

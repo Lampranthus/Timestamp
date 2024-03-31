@@ -1,11 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+USE work.ram_package.ALL;
 
 entity TDC is 
   generic (
   	N : positive := 128;
   	M : positive := 8;
-  	O : positive := 6
+  	O : positive := 6;
+	P : positive := 16 
    );
   Port (
  	CLK 	: in STD_LOGIC;
@@ -21,8 +23,9 @@ entity TDC is
 	Start 	: out STD_LOGIC;
   	Stop 	: out STD_LOGIC;
 	FCout 	: out STD_LOGIC;
-	RR		: out STD_LOGIC_VECTOR(M-1 downto 0);  -- RESULDADO DE LA RESTA
-	RTC 	: out STD_LOGIC_VECTOR(O-1 downto 0)   -- N
+	RV		: out word;
+	WR      : out STD_LOGIC
+	
   );
   
 end TDC;
@@ -110,6 +113,9 @@ end component;
 signal St, Sp, HRST, RST1, FFSp, FFHit : STD_LOGIC;
 signal Adder : STD_LOGIC_VECTOR(N-1 downto 0);
 signal SRT1 : STD_LOGIC_VECTOR(M-1 downto 0);
+signal RR : STD_LOGIC_VECTOR(M-1 downto 0);
+signal RTC : STD_LOGIC_VECTOR(O-1 downto 0);
+signal RVV : STD_LOGIC_VECTOR(P-1 downto 0);
 
 begin 
 	
@@ -119,6 +125,18 @@ begin
 	Stop <= Sp;
 	
 	RT1 <= SRT1;
+	
+	RVV <= RR & "00" & RTC;
+	
+	c1 : process(RVV)
+	begin
+		for i in RVV'range loop
+        RV(i) <= RVV(i);
+        end loop;
+	end process c1;
+	
+	
+	WR <= (not RST1) and T;
   
 	sc0 : Synchronizer port map(CLK, RST1, RST1, FFHit, St, FFSp); 
 	sc1 : Fine_Counter port map(Zeros, Ones, St, Adder, FCout);

@@ -1,0 +1,18 @@
+[Library]
+Timestamp=.\Timestamp\Timestamp.LIB
+[$LibMap$]
+Timestamp=.
+[Configurations]
+compile=Timestamp
+[Project]
+version=4
+Current Config=compile
+Current Flow=Generic
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
