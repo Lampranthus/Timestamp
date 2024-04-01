@@ -12,9 +12,9 @@ Trigger => Global_P:sc1.Trigger
 Hit => TDC:sc0.Hit
 Zero => Shift_Left:sc3.L
 One => Shift_Left:sc4.L
-FCout1 <= Global_P:sc1.FCout
-FCout2 <= TDC:sc0.FCout
-tx <= uart:sc6.tx
+FCout1 << Global_P:sc1.FCout
+FCout2 << TDC:sc0.FCout
+tx << uart:sc6.tx
 
 
 |Timestamp|TDC:sc0

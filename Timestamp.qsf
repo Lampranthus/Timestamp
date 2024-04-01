@@ -97,5 +97,5 @@ set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Times
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Counter_N.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Coarse_Counter.vhd
 set_global_assignment -name VHDL_FILE ../../My_Designs/Timestamp/Timestamp/Timestamp/src/Carry_Chain_N.vhd
-set_location_assignment PIN_AE15 -to tx
+set_location_assignment PIN_G9 -to tx
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
