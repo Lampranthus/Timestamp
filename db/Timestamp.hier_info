@@ -1,6 +1,5 @@
 |Timestamp
 CLK0 => PLL:sc2.CLK0
-CLK0 => uart:sc6.clk
 RST => TDC:sc0.RST
 RST => Global_P:sc1.RST
 RST => Shift_Left:sc3.RST
@@ -13,9 +12,9 @@ Trigger => Global_P:sc1.Trigger
 Hit => TDC:sc0.Hit
 Zero => Shift_Left:sc3.L
 One => Shift_Left:sc4.L
-FCout1 << Global_P:sc1.FCout
-FCout2 << TDC:sc0.FCout
-tx << uart:sc6.tx
+FCout1 <= Global_P:sc1.FCout
+FCout2 <= TDC:sc0.FCout
+tx <= uart:sc6.tx
 
 
 |Timestamp|TDC:sc0
@@ -5260,6 +5259,9 @@ clk => count_os[1].CLK
 clk => count_os[2].CLK
 clk => count_os[3].CLK
 clk => count_os[4].CLK
+clk => count_os[5].CLK
+clk => count_os[6].CLK
+clk => count_os[7].CLK
 clk => count_baud[0].CLK
 clk => count_baud[1].CLK
 clk => count_baud[2].CLK
@@ -5269,6 +5271,9 @@ clk => count_baud[5].CLK
 clk => count_baud[6].CLK
 clk => count_baud[7].CLK
 clk => count_baud[8].CLK
+clk => count_baud[9].CLK
+clk => count_baud[10].CLK
+clk => count_baud[11].CLK
 reset_n => rx_state.ACLR
 reset_n => rx_data[0]~reg0.ACLR
 reset_n => rx_data[1]~reg0.ACLR
@@ -5302,6 +5307,9 @@ reset_n => count_os[1].ACLR
 reset_n => count_os[2].ACLR
 reset_n => count_os[3].ACLR
 reset_n => count_os[4].ACLR
+reset_n => count_os[5].ACLR
+reset_n => count_os[6].ACLR
+reset_n => count_os[7].ACLR
 reset_n => count_baud[0].ACLR
 reset_n => count_baud[1].ACLR
 reset_n => count_baud[2].ACLR
@@ -5311,6 +5319,9 @@ reset_n => count_baud[5].ACLR
 reset_n => count_baud[6].ACLR
 reset_n => count_baud[7].ACLR
 reset_n => count_baud[8].ACLR
+reset_n => count_baud[9].ACLR
+reset_n => count_baud[10].ACLR
+reset_n => count_baud[11].ACLR
 reset_n => rx_buffer[0].ENA
 reset_n => tx_buffer[9].ENA
 reset_n => tx_buffer[8].ENA

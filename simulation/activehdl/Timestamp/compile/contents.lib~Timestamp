@@ -20,11 +20,13 @@
 ~E 1 "../src/FReg.vhd" 4 FReg
 ~A 1 "../src/FReg.vhd" 18 Behavioral
 ~E 1 "../src/fsm_wr.vhd" 6 fsm_wr
-~A 1 "../src/fsm_wr.vhd" 22 fsm
+~A 1 "../src/fsm_wr.vhd" 23 fsm
 ~E 1 "../src/Global_P.vhd" 4 Global_P
 ~A 1 "../src/Global_P.vhd" 27 Behavioral
 ~E 1 "../src/mux_2a1.vhd" 5 mux_2a1
 ~A 1 "../src/mux_2a1.vhd" 14 simple
+~E 1 "../src/mux_2a1_n.vhd" 5 mux_2a1_n
+~A 1 "../src/mux_2a1_n.vhd" 17 combinacional
 ~E 1 "../src/PLL.vhd" 4 PLL
 ~A 1 "../src/PLL.vhd" 12 Behavioral
 ~E 1 "../src/PLL_400MHZ.vhd" 43 PLL_400MHZ

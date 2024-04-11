@@ -8,7 +8,7 @@ def leer_puerto_serie(puerto_serie, tasa_baudios, num_datos_por_iteracion, outpu
     resultados_estadisticos = {'mean': [], 'median': [], 'mode': [], 'std_deviation': []}
     bytes_por_iteracion = 2  # 16 bits de datos
 
-    with serial.Serial(puerto_serie, tasa_baudios, timeout=0.1, bytesize=serial.EIGHTBITS, parity=serial.PARITY_EVEN, stopbits=serial.STOPBITS_ONE) as ser:
+    with serial.Serial(puerto_serie, tasa_baudios, timeout=0.1, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE) as ser:
         while continuar:
             # Limpiar el buffer de entrada antes de cada iteración
             ser.reset_input_buffer()
@@ -41,10 +41,8 @@ def leer_puerto_serie(puerto_serie, tasa_baudios, num_datos_por_iteracion, outpu
 
                 std_deviation = np.std(valores)
 
-                # Escribir los datos y estadísticas en el archivo de salida
-                with open(output_file, 'a') as file:
-                    file.write(f'Dato {len(resultados_estadisticos["mean"]) + 1}: {valores}\n')
-                    file.write(f'Mean: {mean_value:.2f}, Median: {median_value}, Mode: {mode_value}, Std Deviation: {std_deviation:.2f}\n\n')
+                # Guardar los datos en binario
+                np.save(output_file, valores)
 
                 # Almacenar las estadísticas
                 resultados_estadisticos['mean'].append(mean_value)
@@ -59,6 +57,8 @@ def leer_puerto_serie(puerto_serie, tasa_baudios, num_datos_por_iteracion, outpu
                 user_input = input('\nPress Enter to continue or type "stop" to stop: ')
                 if user_input.lower() == 'stop':
                     continuar = False
+                    # Mostrar los datos registrados en binario
+                    mostrar_datos_binarios(output_file)
 
     # Generar la gráfica al finalizar la lectura de datos
     if resultados_estadisticos['mean']:
@@ -75,10 +75,20 @@ def leer_puerto_serie(puerto_serie, tasa_baudios, num_datos_por_iteracion, outpu
         plt.grid(True)
         plt.show()
 
+def mostrar_datos_binarios(file_path):
+    try:
+        datos = np.load(file_path)
+        print("Datos registrados en binario:")
+        for dato in datos:
+            print(bin(dato))
+
+    except FileNotFoundError:
+        print(f"El archivo '{file_path}' no se encontró.")
+
 if __name__ == '__main__':
     puerto_serie = 'COM3'
     tasa_baudios = 115200  # 115200 baudios
     num_datos_por_iteracion = 65536  # 65536 datos por corrida (debido a que cada dato es de 16 bits)
-    output_file = 'datos_registrados.txt'
+    output_file = 'datos_registrados.npy'  # Cambiado a extensión .npy para indicar un archivo binario
 
     leer_puerto_serie(puerto_serie, tasa_baudios, num_datos_por_iteracion, output_file)

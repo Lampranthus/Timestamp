@@ -1,78 +1,79 @@
-Active-HDL 13.0.376.8320 2024-03-31 10:23:43
+Active-HDL 13.0.376.8320 2024-04-11 11:28:31
 
 Elaboration top modules:
 Architecture                  Behavioral(Timestamp)
 
 
--------------------------------------------------------------------------------------------------------------
-Entity                   | Architecture | Library   | Info | Compiler Version          | Compilation Options
--------------------------------------------------------------------------------------------------------------
-Timestamp                | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-TDC                      | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Global_P                 | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-PLL                      | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Shift_Left               | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-ram_dual                 | rtl          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-uart                     | logic        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-fsm_wr                   | fsm          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Synchronizer             | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Fine_Counter             | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Regs                     | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-restador_n               | aritmetica   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-FFD                      | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-AFFD                     | fsm          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-FFD_N                    | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Carry_Chain_N            | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Reg_N                    | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-FReg                     | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Zero_Count               | Behavioral   | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Coarse_Counter           | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-Counter_N                | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-PLL_400MHZ               | SYN          | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-mux_2a1                  | simple       | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-altpll                   | behavior     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stratix_pll           | vital_pll    | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_m_cntr                | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_n_cntr                | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-stx_scale_cntr           | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-DFFP                     | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stratixii_pll         | vital_pll    | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-arm_m_cntr               | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-arm_n_cntr               | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-arm_scale_cntr           | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stratixiii_pll        | vital_pll    | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_ttn_mn_cntr           | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_ttn_scale_cntr        | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_cycloneiii_pll        | vital_pll    | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_cda_mn_cntr           | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_cda_scale_cntr        | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_cycloneiiigl_pll      | vital_pll    | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stingray_mn_cntr      | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stingray_post_divider | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_stingray_scale_cntr   | behave       | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-pll_iobuf                | BEHAVIOR     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Entity                   | Architecture  | Library   | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------------
+Timestamp                | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+TDC                      | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Global_P                 | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+PLL                      | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Shift_Left               | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+ram_dual                 | rtl           | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+uart                     | logic         | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+fsm_wr                   | fsm           | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+mux_2a1_n                | combinacional | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Synchronizer             | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Fine_Counter             | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Regs                     | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+restador_n               | aritmetica    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+FFD                      | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+AFFD                     | fsm           | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+FFD_N                    | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Carry_Chain_N            | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Reg_N                    | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+FReg                     | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Zero_Count               | Behavioral    | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Coarse_Counter           | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+Counter_N                | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+PLL_400MHZ               | SYN           | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+mux_2a1                  | simple        | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+altpll                   | behavior      | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stratix_pll           | vital_pll     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_m_cntr                | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_n_cntr                | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+stx_scale_cntr           | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+DFFP                     | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stratixii_pll         | vital_pll     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+arm_m_cntr               | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+arm_n_cntr               | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+arm_scale_cntr           | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stratixiii_pll        | vital_pll     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_ttn_mn_cntr           | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_ttn_scale_cntr        | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_cycloneiii_pll        | vital_pll     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_cda_mn_cntr           | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_cda_scale_cntr        | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_cycloneiiigl_pll      | vital_pll     | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stingray_mn_cntr      | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stingray_post_divider | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_stingray_scale_cntr   | behave        | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+pll_iobuf                | BEHAVIOR      | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+--------------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------
-VHDL Package                            | Library   | Info | Compiler Version          | Compilation Options
--------------------------------------------------------------------------------------------------------------
-standard                                | std       |      |                           | <unavailable>
-TEXTIO                                  | std       |      | 13.0.376.8320 (Windows64) |  -2019
-std_logic_1164                          | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
-ram_package                             | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
-std_logic_arith                         | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
-STD_LOGIC_UNSIGNED                      | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
-STD_LOGIC_SIGNED                        | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
-NUMERIC_STD                             | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
-ALTERA_DEVICE_FAMILIES                  | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
-MF_pllpack                              | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+VHDL Package                             | Library   | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------------
+standard                                 | std       |      |                           | <unavailable>
+TEXTIO                                   | std       |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                           | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
+ram_package                              | Timestamp |      | 13.0.376.8320 (Windows64) | -O3
+std_logic_arith                          | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                       | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED                         | ieee      |      | 13.0.376.8320 (Windows64) | <unavailable>
+NUMERIC_STD                              | ieee      |      | 13.0.376.8320 (Windows64) |  -2008
+ALTERA_DEVICE_FAMILIES                   | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+MF_pllpack                               | altera_mf |      | 13.0.376.8320 (Windows64) | -strict93 -dbg -93
+--------------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------
-Library                                 | Comment
--------------------------------------------------------------------------------------------------------------
-altera_mf                               | None
-ieee                                    | Standard IEEE packages library
-std                                     | Standard VHDL library
-Timestamp                               | None
--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Library                                  | Comment
+--------------------------------------------------------------------------------------------------------------
+altera_mf                                | None
+ieee                                     | Standard IEEE packages library
+std                                      | Standard VHDL library
+Timestamp                                | None
+--------------------------------------------------------------------------------------------------------------

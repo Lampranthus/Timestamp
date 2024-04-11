@@ -6,12 +6,12 @@ amap altera vhdl_libs/altera_vhdl
 acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_syn_attributes.vhd
 # Compile Package "altera_syn_attributes"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
 acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_standard_functions.vhd
 # Compile Package "altera_standard_functions"
 # Compile Package Body "altera_standard_functions"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
 # Compile Package "alt_dspbuilder_package"
@@ -26,7 +26,7 @@ acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/a
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives_components.vhd
 # Compile Package "dffeas_pack"
 # Compile Package "altera_primitives_components"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
 acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_primitives.vhd
 # Compile Entity "GLOBAL"
@@ -105,7 +105,7 @@ acom -strict93 -dbg -work altera c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/a
 # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_diff"
 # Compile Entity "alt_bidir_buf"
 # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_buf"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
 
 alib  vhdl_libs/lpm_vhdl
 # Library Manager: Library "lpm_vhdl" attached.
@@ -114,7 +114,7 @@ amap lpm vhdl_libs/lpm_vhdl
 acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220pack.vhd
 # Compile Package "LPM_COMPONENTS"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 acom -strict93 -dbg -work lpm c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/220model.vhd
 # Compile Package "LPM_COMMON_CONVERSION"
@@ -201,7 +201,7 @@ acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sg
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate_pack.vhd
 # Compile Package "sgate_pack"
 # Compile Package Body "sgate_pack"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sgate.vhd
 # Compile Entity "oper_add"
@@ -244,7 +244,7 @@ acom -strict93 -dbg -work sgate c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/sg
 # Compile Architecture "sim_arch" of Entity "oper_bus_mux"
 # Compile Entity "oper_latch"
 # Compile Architecture "sim_arch" of Entity "oper_latch"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
 
 alib  vhdl_libs/altera_mf_vhdl
 # Library Manager: Library "altera_mf_vhdl" attached.
@@ -253,7 +253,7 @@ amap altera_mf vhdl_libs/altera_mf_vhdl
 acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf_components.vhd
 # Compile Package "altera_mf_components"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_mf.vhd
 # Compile Entity "LCELL"
@@ -430,7 +430,7 @@ acom -strict93 -dbg -work altera_mf c:/intelfpga_lite/23.1std/quartus/eda/sim_li
 # Compile Architecture "sim_sld_virtual_jtag_basic" of Entity "sld_virtual_jtag_basic"
 # Compile Entity "altsource_probe"
 # Compile Architecture "sim_altsource_probe" of Entity "altsource_probe"
-# Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  8.0 [s]
 
 alib  vhdl_libs/altera_lnsim_vhdl
 # Library Manager: Library "altera_lnsim_vhdl" attached.
@@ -442,7 +442,7 @@ alog  -sv2k5 -dbg -msg 0 -work altera_lnsim c:/intelfpga_lite/23.1std/quartus/ed
 acom -strict93 -dbg -work altera_lnsim c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/altera_lnsim_components.vhd
 # Compile Package "altera_lnsim_components"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 
 alib  vhdl_libs/cycloneive_vhdl
 # Library Manager: Library "cycloneive_vhdl" attached.
@@ -529,14 +529,16 @@ acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_l
 # Compile Architecture "architecture_crcblock" of Entity "cycloneive_crcblock"
 # Compile Entity "cycloneive_oscillator"
 # Compile Architecture "architecture_oscillator" of Entity "cycloneive_oscillator"
-# Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
+# Compile success 0 Errors 5 Warnings  Analysis time :  2.0 [s]
 acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 # File: c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 # Compile Package "cycloneive_components"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 
 addfile -c -auto C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v
 # Adding file C:\Quartus_Proyects\Timestamp\db\pll_400mhz_altpll.v ... Done
+addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1_n.vhd
+# Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\mux_2a1_n.vhd ... Done
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd
 # Adding file C:\My_Designs\Timestamp\Timestamp\Timestamp\src\uart.vhd ... Done
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd
@@ -595,8 +597,11 @@ alog -O2 -sve -msg 5 -sv2k12 -work Timestamp $dsn/src/pll_400mhz_altpll.v
 # Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
 # Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # done
-acom -reorder -O3 -e 100 -work Timestamp -2002  $dsn/src/uart.vhd $dsn/src/ram_dual.vhd $dsn/src/AFFD.vhd $dsn/src/FFD_N.vhd $dsn/src/PLL_400MHZ.vhd $dsn/src/restador_n.vhd $dsn/src/Zero_Count.vhd $dsn/src/Synchronizer.vhd $dsn/src/Shift_Left.vhd $dsn/src/Regs.vhd $dsn/src/Global_P.vhd $dsn/src/Reg_N.vhd $dsn/src/PLL.vhd $dsn/src/mux_2a1.vhd $dsn/src/FReg.vhd $dsn/src/Fine_Counter.vhd $dsn/src/FFD.vhd $dsn/src/Counter_N.vhd $dsn/src/Coarse_Counter.vhd $dsn/src/Carry_Chain_N.vhd $dsn/src/fsm_wr.vhd $dsn/src/Timestamp.vhd $dsn/src/TDC.vhd
+acom -reorder -O3 -e 100 -work Timestamp -2002  $dsn/src/mux_2a1_n.vhd $dsn/src/uart.vhd $dsn/src/ram_dual.vhd $dsn/src/AFFD.vhd $dsn/src/FFD_N.vhd $dsn/src/PLL_400MHZ.vhd $dsn/src/restador_n.vhd $dsn/src/Zero_Count.vhd $dsn/src/Synchronizer.vhd $dsn/src/Shift_Left.vhd $dsn/src/Regs.vhd $dsn/src/Global_P.vhd $dsn/src/Reg_N.vhd $dsn/src/PLL.vhd $dsn/src/mux_2a1.vhd $dsn/src/FReg.vhd $dsn/src/Fine_Counter.vhd $dsn/src/FFD.vhd $dsn/src/Counter_N.vhd $dsn/src/Coarse_Counter.vhd $dsn/src/Carry_Chain_N.vhd $dsn/src/fsm_wr.vhd $dsn/src/Timestamp.vhd $dsn/src/TDC.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/mux_2a1_n.vhd
+# Compile Entity "mux_2a1_n"
+# Compile Architecture "combinacional" of Entity "mux_2a1_n"
 # File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/uart.vhd
 # Compile Entity "uart"
 # Compile Architecture "logic" of Entity "uart"
@@ -683,6 +688,6 @@ acom -reorder -O3 -e 100 -work Timestamp -2002  $dsn/src/uart.vhd $dsn/src/ram_d
 # Compile Architecture "Behavioral" of Entity "Global_P"
 # File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd
 # Compile Architecture "Behavioral" of Entity "Timestamp"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.2 [s].

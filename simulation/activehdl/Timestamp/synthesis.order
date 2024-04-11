@@ -1,4 +1,5 @@
 i<>.\src\pll_400mhz_altpll.v
+i<>.\src\mux_2a1_n.vhd
 i<>.\src\uart.vhd
 i<>.\src\ram_dual.vhd
 i<>.\src\AFFD.vhd

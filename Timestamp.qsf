@@ -70,7 +70,7 @@ set_location_assignment PIN_C27 -to "Trigger(n)"
 set_location_assignment PIN_AB28 -to init
 set_location_assignment PIN_AC28 -to Zero
 set_location_assignment PIN_AC27 -to One
-set_location_assignment PIN_AH14 -to CLK0
+set_location_assignment PIN_Y2 -to CLK0
 set_location_assignment PIN_F17 -to FCout2
 set_location_assignment PIN_H15 -to FCout1
 set_location_assignment PIN_G9 -to tx

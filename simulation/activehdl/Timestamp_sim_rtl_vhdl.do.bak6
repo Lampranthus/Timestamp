@@ -37,7 +37,6 @@ acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_l
 acom -strict93 -dbg -work cycloneive c:/intelfpga_lite/23.1std/quartus/eda/sim_lib/cycloneive_components.vhd
 
 addfile -c -auto C:/Quartus_Proyects/Timestamp/db/pll_400mhz_altpll.v
-addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/mux_2a1_n.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/uart.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/ram_dual.vhd
 addfile -c -auto C:/My_Designs/Timestamp/Timestamp/Timestamp/src/AFFD.vhd

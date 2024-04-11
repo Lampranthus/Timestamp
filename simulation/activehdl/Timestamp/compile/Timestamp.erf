@@ -1,4 +1,7 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/mux_2a1_n.vhd" 
+MESSAGE "Compile Entity "mux_2a1_n"" 
+MESSAGE "Compile Architecture "combinacional" of Entity "mux_2a1_n"" 
 MESSAGE "File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/uart.vhd" 
 MESSAGE "Compile Entity "uart"" 
 MESSAGE "Compile Architecture "logic" of Entity "uart"" 
@@ -85,4 +88,4 @@ MESSAGE "File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/
 MESSAGE "Compile Architecture "Behavioral" of Entity "Global_P"" 
 MESSAGE "File: C:/Quartus_Proyects/Timestamp/simulation/activehdl/Timestamp/src/Timestamp.vhd" 
 MESSAGE "Compile Architecture "Behavioral" of Entity "Timestamp"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

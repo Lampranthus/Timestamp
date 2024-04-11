@@ -303,7 +303,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AH10      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH11      :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :         : 3         :                
 VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
-CLK0                         : AH14      : input  : 2.5 V             :         : 3         : Y              
+GND+                         : AH14      :        :                   :         : 3         :                
 GND+                         : AH15      :        :                   :         : 4         :                
 VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH17      :        :                   :         : 4         :                
@@ -822,7 +822,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : W26       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : W27       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W28       :        :                   :         : 5         :                
 GND+                         : Y1        :        :                   :         : 2         :                
-GND+                         : Y2        :        :                   :         : 2         :                
+CLK0                         : Y2        : input  : 2.5 V             :         : 2         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 2         :                

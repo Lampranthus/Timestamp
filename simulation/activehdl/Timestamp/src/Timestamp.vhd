@@ -114,8 +114,8 @@ component uart IS
     clk_freq  :  INTEGER    := 400_000_000;  --frequency of system clock in Hertz
     baud_rate :  INTEGER    := 115_200;      --data link baud rate in bits/second
     os_rate   :  INTEGER    := 16;          --oversampling rate to find center of receive bits (in samples per baud period)
-    d_width   :  INTEGER    := 16;           --data bus width
-    parity    :  INTEGER    := 1;           --0 for no parity, 1 for parity
+    d_width   :  INTEGER    := 8;           --data bus width
+    parity    :  INTEGER    := 0;           --0 for no parity, 1 for parity
     parity_eo :  STD_LOGIC  := '0');        --'0' for even, '1' for odd parity
   PORT(
     clk      :  IN   STD_LOGIC;                             --system clock
@@ -132,20 +132,37 @@ component uart IS
 end component;
 
 component fsm_wr is
-    port (
-        RST, CLK : in std_logic;
-        init, hit, fin : in std_logic;
-        we : out std_logic;
-        Q1, Q2 : out address_vector;
-        sttx : out std_logic
-    );	
+	port(
+	
+	RST,CLK : in std_logic;
+	init : in std_logic;
+	hit  : in std_logic;  
+	fin  : in std_logic;
+	
+	we : out std_logic;
+	Q1 : out address_vector; 
+	Q2 : out address_vector;
+	OP : out std_logic;
+	sttx : out std_logic
+	
+	);	
 end component;
 
+component mux_2a1_n is
+	generic(
+	n	:	integer := 8 		--n-bits
+	);
+	port(
+	x		: in std_logic_vector(15 downto 0);
+	s		: in std_logic;
+	y		: out std_logic_vector(n-1 downto 0)
+	);
+end component;
 
-signal CCout, CLK, T, TStop, Start, Stop, WR, we, tx_ena, tx_busy : STD_LOGIC;
+signal CCout, CLK, T, TStop, Start, Stop, WR, we, tx_ena, tx_busy, OP : STD_LOGIC;
 signal TC :  STD_LOGIC_VECTOR(O-1 downto 0);
 signal Zeros, Ones :  STD_LOGIC_VECTOR(N-1 downto 0);
-signal RT0, RT1 :  STD_LOGIC_VECTOR(M-1 downto 0);
+signal RT0, RT1, tx_data8 :  STD_LOGIC_VECTOR(M-1 downto 0);
 signal q, RV : word;
 signal write_address, read_address : address_vector;
 signal tx_data :  STD_LOGIC_VECTOR(P-1 downto 0);
@@ -165,7 +182,8 @@ begin
 	sc3 : Shift_Left port map(CLK, RST, Zero, Zeros);
 	sc4 : Shift_Left port map(CLK, RST, One, Ones);
 	sc5 : ram_dual port map(CLK, CLK, RV, write_address, read_address, we, q);
-	sc6 : uart port map(CLK, RST, tx_ena, tx_data, '0', open, open, open, tx_busy, tx);
-	sc7 : fsm_wr port map(RST, CLK, init, WR, tx_busy, we, write_address, read_address, tx_ena);
+	sc6 : uart port map(CLK, RST, tx_ena, tx_data8, '0', open, open, open, tx_busy, tx);
+	sc7 : fsm_wr port map(RST, CLK, init, WR, tx_busy, we, write_address, read_address, OP, tx_ena);
+	sc8 : mux_2a1_n port map(tx_data , OP, tx_data8);
   
 end Behavioral;

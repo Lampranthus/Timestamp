@@ -36,10 +36,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLK0",
-					"strict" : false
-				},
-				{
 					"name" : "Hit",
 					"strict" : false
 				}
